@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MJ-3502
+#
+DEF MJ-3502 J 0 40 Y N 1 L N
+F0 "J" -300 230 50 H V L BNN
+F1 "MJ-3502" -300 -300 50 H V L BNN
+F2 "CUI_MJ-3502" -500 -750 50 H I L BNN
+F3 "https://www.digikey.com/product-detail/en/cui-inc/MJ-3502/CP-3502MJ-ND/281321?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" -650 -550 50 H I L BNN
+F4 "CP-3502MJ-ND" -400 -700 50 H I L BNN
+F5 "None" -750 -200 50 H I L BNN
+F6 "MJ-3502" -900 -650 50 H I L BNN
+F7 "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" -600 -450 50 H I L BNN
+F8 "3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector" -700 -350 50 H I L BNN
+F9 "CUI Inc." -1100 -200 50 H I L BNN
+DRAW
+S -60 20 -140 -100 0 0 10 F
+S 300 -200 -300 200 0 0 10 f
+P 2 0 0 10 -140 -100 -60 -100 N
+P 2 0 0 10 -140 20 -140 -100 N
+P 2 0 0 10 -100 20 -140 20 N
+P 2 0 0 10 -100 20 -100 100 N
+P 2 0 0 10 -100 100 300 100 N
+P 2 0 0 10 -60 20 -100 20 N
+P 2 0 0 10 0 -100 50 0 N
+P 2 0 0 10 50 0 100 -100 N
+P 2 0 0 10 100 -100 200 -100 N
+P 2 0 0 10 180 -30 200 -100 N
+P 2 0 0 10 200 -100 220 -30 N
+P 2 0 0 10 200 -100 300 -100 N
+P 2 0 0 10 200 -30 180 -30 N
+P 2 0 0 10 200 0 200 -30 N
+P 2 0 0 10 220 -30 200 -30 N
+P 2 0 0 10 300 0 200 0 N
+P 3 0 0 10 220 -30 180 -30 200 -100 F
+X 1 1 400 100 100 L 40 40 0 0 P
+X 2 2 400 -100 100 L 40 40 0 0 P
+X 3 3 400 0 100 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
