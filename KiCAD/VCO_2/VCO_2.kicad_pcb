@@ -63,8 +63,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4.064 4.064)
-    (pad_drill 3.2)
+    (pad_size 1.7 1.7)
+    (pad_drill 1)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -2284,6 +2284,11 @@
       (net 11 GND))
     (pad 1 thru_hole circle (at -3.81 0 270) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 18 "Net-(D1-Pad2)"))
+    (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step
+      (offset (xyz -3.75 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Synth:R_1206 (layer F.Cu) (tedit 5CC9D725) (tstamp 5CCA8572)
@@ -3874,10 +3879,10 @@
       (net 37 "Net-(R6-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 +12V))
-    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/9-PIHER_3D_PT10MV10.STEP"
+      (offset (xyz 5 2.5 5.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -3911,10 +3916,10 @@
       (net 43 "Net-(R13-Pad1)"))
     (pad 3 thru_hole circle (at 0 -5) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 40 "Net-(R10-Pad1)"))
-    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/9-PIHER_3D_PT10MV10.STEP"
+      (offset (xyz 5 2.5 5.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -3948,10 +3953,10 @@
       (net 51 "Net-(R28-Pad1)"))
     (pad 3 thru_hole circle (at 0 -5 180) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 49 "Net-(R25-Pad2)"))
-    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/9-PIHER_3D_PT10MV10.STEP"
+      (offset (xyz 5 2.5 5.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -3985,10 +3990,10 @@
       (net 52 "Net-(R28-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 270) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 50 "Net-(R26-Pad1)"))
-    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/9-PIHER_3D_PT10MV10.STEP"
+      (offset (xyz 5 2.5 5.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -4022,10 +4027,10 @@
       (net 59 "Net-(R40-Pad1)"))
     (pad 1 thru_hole circle (at 0 0 90) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 +12V))
-    (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V10_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/9-PIHER_3D_PT10MV10.STEP"
+      (offset (xyz 5 2.5 5.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -4572,11 +4577,6 @@
       (net 23 EXP_CV1))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC163)
@@ -4612,11 +4612,6 @@
       (net 11 GND))
     (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 24 EXP_CV2))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC178)
@@ -4652,11 +4647,6 @@
       (net 13 Soft_SYNC))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC18D)
@@ -4692,11 +4682,6 @@
       (net 11 GND))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 25 "Net-(J4-Pad2)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC1A2)
@@ -4732,11 +4717,6 @@
       (net 26 "Net-(J5-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC1B7)
@@ -4772,14 +4752,9 @@
       (net 11 GND))
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 27 "Net-(J6-Pad2)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC1CC)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 5CD19939) (tstamp 5CCAC1CC)
     (at 58.3946 125.6792)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
@@ -4812,11 +4787,6 @@
       (net 11 GND))
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 28 Sine))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC1E1)
@@ -4852,11 +4822,6 @@
       (net 29 Triangle))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCB59D1)
@@ -4892,11 +4857,6 @@
       (net 11 GND))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 30 Sawtooth))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC20B)
@@ -4932,11 +4892,6 @@
       (net 31 Pulse))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC3EB)
@@ -4974,11 +4929,6 @@
       (net 55 "Net-(R31-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 44 "Net-(R21-Pad2)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC401)
@@ -5016,11 +4966,6 @@
       (net 36 CV_Coarse))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +12V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC417)
@@ -5058,11 +5003,6 @@
       (net 35 CV_Fine))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 -12V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC42D)
@@ -5100,11 +5040,6 @@
       (net 54 PWM_CV))
     (pad 3 thru_hole oval (at 0 5.08 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC443)
@@ -5142,11 +5077,6 @@
       (net 34 EXP_FM_CV))
     (pad 3 thru_hole oval (at 0 5.08 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CCAC459)
@@ -5184,11 +5114,6 @@
       (net 41 LIN_FM_CV))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 27 "Net-(J6-Pad2)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (gr_text "Jonathan Kayne, 2019" (at 55.9816 80.6958 90) (layer F.SilkS)
