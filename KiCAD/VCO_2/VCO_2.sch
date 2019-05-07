@@ -303,17 +303,6 @@ $EndComp
 Wire Wire Line
 	2350 3400 2350 3350
 Connection ~ 2350 3350
-$Comp
-L Transistor_BJT:BC857BS Q1
-U 1 1 5CCAB607
-P 3025 4000
-F 0 "Q1" H 3200 4100 50  0000 L CNN
-F 1 "BC857BS" H 3225 4000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3225 4100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 3025 4000 50  0001 C CNN
-	1    3025 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 4000 2700 4000
 $Comp
@@ -477,17 +466,6 @@ F 2 "" H 2275 5550 50  0001 C CNN
 F 3 "" H 2275 5550 50  0001 C CNN
 	1    2275 5550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC857BS Q1
-U 2 1 5CCD5A3F
-P 3775 4000
-F 0 "Q1" H 3925 3900 50  0000 L CNN
-F 1 "BC857BS" H 3975 3850 50  0001 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3975 4100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 3775 4000 50  0001 C CNN
-	2    3775 4000
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3125 4375 3675 4375
@@ -2163,4 +2141,26 @@ Connection ~ 8400 2300
 Connection ~ 8225 2300
 Wire Wire Line
 	8225 2300 8225 2500
+$Comp
+L Transistor_BJT:BC847BS Q1
+U 1 1 5CD735AF
+P 3025 4000
+F 0 "Q1" H 3200 4100 50  0000 L CNN
+F 1 "BC847BS" H 3225 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3225 4100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 3025 4000 50  0001 C CNN
+	1    3025 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847BS Q1
+U 2 1 5CD77343
+P 3775 4000
+F 0 "Q1" H 3925 4100 50  0000 L CNN
+F 1 "BC847BS" H 3975 3950 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3975 4100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf" H 3775 4000 50  0001 C CNN
+	2    3775 4000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
