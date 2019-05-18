@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Synth)(type Legacy)(uri "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.lib")(options "")(descr ""))
+  (lib (name 2040002-1)(type Legacy)(uri "C:/Users/Jonathan Kayne/Documents/KiCAD/Libraries/FM Radio Business Card/2040002-1.lib")(options "")(descr ""))
+)

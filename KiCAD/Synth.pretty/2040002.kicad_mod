@@ -1,4 +1,4 @@
-(module 2040002 (layer F.Cu) (tedit 5CD5A27B)
+(module 2040002 (layer F.Cu) (tedit 5CE045F2)
   (attr smd)
   (fp_text reference 2040002 (at -5.5 -3.032 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.05)))
@@ -16,4 +16,9 @@
   (pad 4 smd rect (at 0.65 -4.725 90) (size 2.55 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.3 -4.725 90) (size 2.55 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.3 -4.725 90) (size 2.55 0.4) (layers F.Cu F.Paste F.Mask))
+  (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/c-2040002-1-d-3d.stp"
+    (offset (xyz 0 -1.25 1.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
