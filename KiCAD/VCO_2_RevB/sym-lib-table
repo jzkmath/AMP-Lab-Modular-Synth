@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Synth)(type Legacy)(uri "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.lib")(options "")(descr ""))
+  (lib (name chibi)(type Legacy)(uri "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/chibi.lib")(options "")(descr ""))
+)

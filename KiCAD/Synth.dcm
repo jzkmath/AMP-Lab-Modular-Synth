@@ -11,4 +11,9 @@ D Digital Potentiometer with programable outputs
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5241_5242.pdf
 $ENDCMP
 #
+$CMP Schurter_4832_Jack
+D CONN JACK MONO 3.5MM PNL MNT
+F https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_4832.2211.pdf
+$ENDCMP
+#
 #End Doc Library

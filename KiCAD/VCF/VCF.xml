@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\Users\Jonathan Kayne\Documents\KiCAD\Modular Synth\VCF\VCF.sch</source>
-    <date>5/11/2019 6:11:01 PM</date>
+    <date>05/26/19 17:46:18</date>
     <tool>Eeschema (5.1.0)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>JZK VCF</title>
         <company>Jonathan Kayne</company>
-        <rev>A</rev>
-        <date>2019-05-11</date>
+        <rev>B</rev>
+        <date>2019-05-25</date>
         <source>VCF.sch</source>
         <comment number="1" value="Licenced for Noncomercial use ONLY"/>
         <comment number="2" value="Moog Werkstatt 01"/>
@@ -23,6 +23,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD73B15</tstamp>
@@ -31,6 +36,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD74AB9</tstamp>
@@ -39,6 +49,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD7538A</tstamp>
@@ -47,6 +62,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD755EA</tstamp>
@@ -55,6 +75,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD768DC</tstamp>
@@ -63,6 +88,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD768E6</tstamp>
@@ -71,6 +101,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD768F0</tstamp>
@@ -79,6 +114,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD768FA</tstamp>
@@ -87,6 +127,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD79BF8</tstamp>
@@ -95,6 +140,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD7ECC9</tstamp>
@@ -103,6 +153,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD7F1BC</tstamp>
@@ -111,6 +166,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD7F615</tstamp>
@@ -119,6 +179,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD836F6</tstamp>
@@ -127,6 +192,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD843D5</tstamp>
@@ -135,6 +205,11 @@
       <value>2.74k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nftt</field>
+        <field name="Digikey PN">311-2.74KFRCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD84A78</tstamp>
@@ -143,6 +218,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD85714</tstamp>
@@ -151,6 +231,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD85D55</tstamp>
@@ -159,6 +244,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD8BA3C</tstamp>
@@ -167,6 +257,11 @@
       <value>2N3392</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcv</field>
+        <field name="Digikey PN">2N3392CS-ND</field>
+        <field name="Unit Price">0.647</field>
+      </fields>
       <libsource lib="Synth" part="2N3392" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD8D1E1</tstamp>
@@ -175,6 +270,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD91278</tstamp>
@@ -183,6 +283,11 @@
       <value>100uF</value>
       <footprint>Synth:CP_Tantalum_7343</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfcn</field>
+        <field name="Digikey PN">399-9749-1-ND</field>
+        <field name="Unit Price">2.71</field>
+      </fields>
       <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD91D5B</tstamp>
@@ -191,6 +296,11 @@
       <value>2.74k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nftt</field>
+        <field name="Digikey PN">311-2.74KFRCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD9506B</tstamp>
@@ -199,6 +309,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD98CDF</tstamp>
@@ -207,6 +322,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD9ADA7</tstamp>
@@ -215,6 +335,11 @@
       <value>2N3904</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nft0</field>
+        <field name="Digikey PN">2N3904FS-ND</field>
+        <field name="Unit Price">0.21</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD9E505</tstamp>
@@ -223,6 +348,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CD9F669</tstamp>
@@ -231,6 +361,11 @@
       <value>2N3906</value>
       <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
       <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf3t</field>
+        <field name="Digikey PN">2N3906TARFSCT-ND</field>
+        <field name="Unit Price">0.24</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDA595C</tstamp>
@@ -239,6 +374,11 @@
       <value>12k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf70</field>
+        <field name="Digikey PN">A129823CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDA826F</tstamp>
@@ -247,6 +387,11 @@
       <value>1.0k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrdz</field>
+        <field name="Digikey PN">311-1.0KERCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDAF917</tstamp>
@@ -255,6 +400,11 @@
       <value>2.2uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfth</field>
+        <field name="Digikey PN">1276-1072-1-ND</field>
+        <field name="Unit Price">0.22</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDB2368</tstamp>
@@ -263,6 +413,11 @@
       <value>100k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr28</field>
+        <field name="Digikey PN">A129834CT-ND</field>
+        <field name="Unit Price">0.07</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDB2D7C</tstamp>
@@ -271,6 +426,11 @@
       <value>68.1k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf72</field>
+        <field name="Digikey PN">RNCP1206FTD68K1CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDB987F</tstamp>
@@ -279,6 +439,11 @@
       <value>10k</value>
       <footprint>Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrbh</field>
+        <field name="Digikey PN">1993-1104-ND</field>
+        <field name="Unit Price">0.46</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDBA22A</tstamp>
@@ -287,6 +452,11 @@
       <value>4.99k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf79</field>
+        <field name="Digikey PN">RNCP1206FTD4K99CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDBAD9B</tstamp>
@@ -295,6 +465,11 @@
       <value>4.99k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf79</field>
+        <field name="Digikey PN">RNCP1206FTD4K99CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDBB024</tstamp>
@@ -303,14 +478,24 @@
       <value>33k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrww</field>
+        <field name="Digikey PN">RMCF1206JT33K0CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDBB636</tstamp>
     </comp>
     <comp ref="RV1">
-      <value>25k</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <value>10k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf35</field>
+        <field name="Digikey PN">PTV09A-4020F-B103-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDCE6F8</tstamp>
@@ -319,14 +504,24 @@
       <value>100k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr28</field>
+        <field name="Digikey PN">A129834CT-ND</field>
+        <field name="Unit Price">0.07</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDD1077</tstamp>
     </comp>
     <comp ref="RV3">
-      <value>25k</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <value>10kA</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf3v</field>
+        <field name="Digikey PN">PTV09A-4020F-A103-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDD85B0</tstamp>
@@ -335,6 +530,11 @@
       <value>2.2uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfth</field>
+        <field name="Digikey PN">1276-1072-1-ND</field>
+        <field name="Unit Price">0.22</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDD9B3A</tstamp>
@@ -343,6 +543,11 @@
       <value>12k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf70</field>
+        <field name="Digikey PN">A129823CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDE5AF6</tstamp>
@@ -351,6 +556,11 @@
       <value>TL072</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nf7q</field>
+        <field name="Digikey PN">296-1282-1-ND</field>
+        <field name="Unit Price">0.62</field>
+      </fields>
       <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDE9B98</tstamp>
@@ -359,6 +569,11 @@
       <value>100</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nftq</field>
+        <field name="Digikey PN">RNCP1206FTD100RCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CDFEA8A</tstamp>
@@ -367,6 +582,11 @@
       <value>6.81k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nft8</field>
+        <field name="Digikey PN">RNCP1206FTD6K81CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE0F735</tstamp>
@@ -375,6 +595,11 @@
       <value>2.2uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfth</field>
+        <field name="Digikey PN">1276-1072-1-ND</field>
+        <field name="Unit Price">0.22</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE1D76A</tstamp>
@@ -383,6 +608,11 @@
       <value>100k</value>
       <footprint>Synth:R_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr28</field>
+        <field name="Digikey PN">A129834CT-ND</field>
+        <field name="Unit Price">0.07</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE1EB8B</tstamp>
@@ -391,6 +621,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE36930</tstamp>
@@ -399,6 +634,11 @@
       <value>0.1uF</value>
       <footprint>Synth:C_1206</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE3AD33</tstamp>
@@ -407,54 +647,176 @@
       <value>Power</value>
       <footprint>Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr5h</field>
+        <field name="Digikey PN">609-3243-ND</field>
+        <field name="Unit Price">0.27</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE51AED</tstamp>
     </comp>
     <comp ref="J2">
-      <value>MJ-3502</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
       <fields>
-        <field name="Field4">CP-3502MJ-ND</field>
-        <field name="Field5">None</field>
-        <field name="Field6">MJ-3502</field>
-        <field name="Field7">https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
-        <field name="Field8">3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector</field>
-        <field name="Field9">CUI Inc.</field>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
       </fields>
       <libsource lib="Synth" part="MJ-3502" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CE896E9</tstamp>
     </comp>
     <comp ref="J3">
-      <value>MJ-3502</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
       <fields>
-        <field name="Field4">CP-3502MJ-ND</field>
-        <field name="Field5">None</field>
-        <field name="Field6">MJ-3502</field>
-        <field name="Field7">https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
-        <field name="Field8">3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector</field>
-        <field name="Field9">CUI Inc.</field>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
       </fields>
       <libsource lib="Synth" part="MJ-3502" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEA44A8</tstamp>
     </comp>
     <comp ref="J4">
-      <value>MJ-3502</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
       <fields>
-        <field name="Field4">CP-3502MJ-ND</field>
-        <field name="Field5">None</field>
-        <field name="Field6">MJ-3502</field>
-        <field name="Field7">https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
-        <field name="Field8">3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector</field>
-        <field name="Field9">CUI Inc.</field>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
       </fields>
       <libsource lib="Synth" part="MJ-3502" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CEAD4DD</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD8F91E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD90EFA</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>2.2uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfth</field>
+        <field name="Digikey PN">1276-1072-1-ND</field>
+        <field name="Unit Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD923FA</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfth</field>
+        <field name="Digikey PN">1276-1072-1-ND</field>
+        <field name="Unit Price">0.22</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD93424</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L78L09_SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nftn</field>
+        <field name="Digikey PN">497-1192-1-ND</field>
+        <field name="Unit Price">0.42</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L78L09_SOT89" description="Positive 100mA 30V Linear Regulator, Fixed Output 9V, SOT-89"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF2F61</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L79L09_SOT89</value>
+      <footprint>Package_TO_SOT_SMD:SOT-89-3</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1827870.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nftb</field>
+        <field name="Digikey PN">NJM79L09UA-TE1CT-ND</field>
+        <field name="Unit Price">0.80</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L79L05_SOT89" description="Negative 100mA -30V Linear Regulator, Fixed Output -5V, SOT-89"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDF4B2F</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC6C20</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC8180</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC86D6</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEC988F</tstamp>
     </comp>
   </components>
   <libparts>
@@ -633,6 +995,66 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Regulator_Linear" part="L79L05_SOT89">
+      <aliases>
+        <alias>L79L08_SOT89</alias>
+        <alias>L79L12_SOT89</alias>
+        <alias>L79L15_SOT89</alias>
+      </aliases>
+      <description>Negative 100mA -30V Linear Regulator, Fixed Output -5V, SOT-89</description>
+      <docs>http://www.farnell.com/datasheets/1827870.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L79L05_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_SOT89">
+      <aliases>
+        <alias>MC78L08_SOT89</alias>
+        <alias>MC78L12_SOT89</alias>
+        <alias>L78L33_SOT89</alias>
+        <alias>L78L05_SOT89</alias>
+        <alias>L78L06_SOT89</alias>
+        <alias>L78L08_SOT89</alias>
+        <alias>L78L09_SOT89</alias>
+        <alias>L78L10_SOT89</alias>
+        <alias>L78L12_SOT89</alias>
+        <alias>L78L15_SOT89</alias>
+        <alias>L78L18_SOT89</alias>
+        <alias>L78L24_SOT89</alias>
+        <alias>MCP1804x-1802xMB</alias>
+        <alias>MCP1804x-2502xMB</alias>
+        <alias>MCP1804x-3002xMB</alias>
+        <alias>MCP1804x-3302xMB</alias>
+        <alias>MCP1804x-5002xMB</alias>
+        <alias>MCP1804x-A002xMB</alias>
+        <alias>MCP1804x-C002xMB</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</docs>
+      <footprints>
+        <fp>SOT?89*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_SOT89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-89-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Synth" part="2N3392">
       <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
       <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
@@ -648,6 +1070,16 @@
         <pin num="1" name="B" type="passive"/>
         <pin num="2" name="C" type="passive"/>
         <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Synth" part="M3_Screw">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">M3_Screw</field>
+        <field name="Footprint">Synth:M3_Screw_Hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Synth" part="MJ-3502">
@@ -717,6 +1149,9 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
     <library logical="Synth">
       <uri>C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.lib</uri>
     </library>
@@ -725,211 +1160,241 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R19-Pad1)">
-      <node ref="R20" pin="2"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="2" name="Net-(R19-Pad2)">
-      <node ref="R19" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="3" name="Net-(C4-Pad2)">
-      <node ref="Q3" pin="3"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="4" name="VCF_Out">
-      <node ref="R21" pin="1"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J4" pin="2"/>
-      <node ref="C11" pin="1"/>
-    </net>
-    <net code="5" name="GND">
-      <node ref="J1" pin="6"/>
-      <node ref="J1" pin="8"/>
-      <node ref="J1" pin="7"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J3" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="Q7" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="5"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R21" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="RV3" pin="3"/>
-    </net>
-    <net code="6" name="Net-(C11-Pad2)">
-      <node ref="R18" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="C11" pin="2"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="7" name="+12V">
-      <node ref="R9" pin="1"/>
+    <net code="1" name="+12V">
       <node ref="J1" pin="2"/>
       <node ref="J1" pin="1"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="8" name="-12V">
-      <node ref="Q1" pin="3"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="R2" pin="2"/>
+    <net code="2" name="-12V">
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="2"/>
       <node ref="J1" pin="10"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C10" pin="2"/>
       <node ref="J1" pin="9"/>
     </net>
-    <net code="9" name="Net-(R3-Pad2)">
-      <node ref="RV1" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="10" name="Cutoff_CV">
-      <node ref="R4" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="11" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="RV2" pin="2"/>
-    </net>
-    <net code="12" name="Net-(R1-Pad1)">
-      <node ref="RV2" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="13" name="Net-(R2-Pad1)">
-      <node ref="RV2" pin="3"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="14" name="Net-(R18-Pad2)">
+    <net code="3" name="GND">
+      <node ref="U3" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J4" pin="1"/>
       <node ref="RV3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R19-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R18-Pad2)">
+      <node ref="RV3" pin="3"/>
       <node ref="R18" pin="2"/>
     </net>
-    <net code="15" name="Net-(C8-Pad1)">
-      <node ref="RV3" pin="2"/>
-      <node ref="C8" pin="1"/>
+    <net code="7" name="VCF_Out">
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C11" pin="1"/>
     </net>
-    <net code="16" name="VCF_In">
+    <net code="8" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="9" name="-9V">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="10" name="+9V">
+      <node ref="R9" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="11" name="Net-(CN4-Pad1)">
+      <node ref="CN4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(CN2-Pad1)">
+      <node ref="CN2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(CN3-Pad1)">
+      <node ref="CN3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(CN1-Pad1)">
+      <node ref="CN1" pin="1"/>
+    </net>
+    <net code="15" name="VCF_In">
       <node ref="R7" pin="2"/>
-      <node ref="J3" pin="3"/>
       <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
     </net>
-    <net code="17" name="Net-(C6-Pad2)">
-      <node ref="Q5" pin="3"/>
-      <node ref="C6" pin="2"/>
-      <node ref="Q6" pin="2"/>
+    <net code="16" name="Cutoff_CV">
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="R4" pin="2"/>
     </net>
-    <net code="18" name="Net-(C6-Pad1)">
-      <node ref="Q11" pin="2"/>
-      <node ref="Q10" pin="3"/>
-      <node ref="C6" pin="1"/>
+    <net code="17" name="Net-(Q12-Pad3)">
+      <node ref="R16" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q12" pin="3"/>
+    </net>
+    <net code="18" name="Net-(Q3-Pad1)">
+      <node ref="Q8" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
     </net>
     <net code="19" name="Net-(C7-Pad1)">
-      <node ref="Q11" pin="3"/>
-      <node ref="Q12" pin="2"/>
       <node ref="C7" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="Q11" pin="3"/>
     </net>
-    <net code="20" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q6" pin="3"/>
+    <net code="20" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="Q11" pin="2"/>
     </net>
-    <net code="21" name="Net-(C2-Pad1)">
-      <node ref="R17" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="22" name="Net-(C5-Pad1)">
+    <net code="21" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1"/>
       <node ref="Q9" pin="3"/>
       <node ref="Q10" pin="2"/>
     </net>
-    <net code="23" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
+    <net code="22" name="Net-(C4-Pad1)">
       <node ref="U1" pin="5"/>
-      <node ref="Q9" pin="2"/>
       <node ref="Q8" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q9" pin="2"/>
     </net>
-    <net code="24" name="Net-(Q3-Pad1)">
-      <node ref="Q3" pin="1"/>
-      <node ref="R9" pin="2"/>
-      <node ref="Q8" pin="1"/>
-      <node ref="R10" pin="1"/>
+    <net code="23" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="24" name="Net-(C6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C6" pin="2"/>
     </net>
     <net code="25" name="Net-(Q11-Pad1)">
-      <node ref="Q6" pin="1"/>
       <node ref="R13" pin="1"/>
-      <node ref="R12" pin="2"/>
       <node ref="Q11" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="Q6" pin="1"/>
     </net>
     <net code="26" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
       <node ref="Q5" pin="2"/>
       <node ref="Q4" pin="3"/>
-      <node ref="C5" pin="2"/>
     </net>
     <net code="27" name="Net-(Q10-Pad1)">
-      <node ref="Q10" pin="1"/>
-      <node ref="R11" pin="2"/>
       <node ref="R12" pin="1"/>
       <node ref="Q5" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q10" pin="1"/>
     </net>
     <net code="28" name="Net-(Q4-Pad1)">
       <node ref="R11" pin="1"/>
-      <node ref="R10" pin="2"/>
       <node ref="Q9" pin="1"/>
       <node ref="Q4" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="29" name="Net-(C3-Pad1)">
-      <node ref="R8" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="Q7" pin="2"/>
+    <net code="29" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="3"/>
     </net>
-    <net code="30" name="Net-(Q1-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R5" pin="1"/>
+    <net code="30" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="RV2" pin="3"/>
     </net>
-    <net code="31" name="Net-(Q7-Pad3)">
-      <node ref="Q7" pin="3"/>
-      <node ref="R16" pin="2"/>
+    <net code="31" name="Net-(R5-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="32" name="Net-(C1-Pad2)">
+    <net code="32" name="Net-(R1-Pad1)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C1-Pad2)">
       <node ref="R7" pin="1"/>
       <node ref="C1" pin="2"/>
     </net>
-    <net code="33" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
+    <net code="34" name="Net-(C1-Pad1)">
       <node ref="Q2" pin="1"/>
+      <node ref="C1" pin="1"/>
       <node ref="R15" pin="1"/>
     </net>
-    <net code="34" name="Net-(C8-Pad2)">
-      <node ref="Q12" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="R17" pin="1"/>
+    <net code="35" name="Net-(R3-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="35" name="Net-(Q12-Pad3)">
-      <node ref="R16" pin="1"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="Q12" pin="3"/>
+    <net code="36" name="Net-(C8-Pad1)">
+      <node ref="RV3" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C8-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="38" name="Net-(Q1-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="40" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C3-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="2"/>
     </net>
   </nets>
 </export>

@@ -1,0 +1,328 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "JZK VCA Panel"
+Date "2019-05-27"
+Rev "A"
+Comp "Jonathan Kayne"
+Comment1 "Eurorack 3U, 10HP"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D448316
+P 4750 2500
+F 0 "CN?" H 4750 2560 50  0000 C CNN
+F 1 "M3_Screw" H 4770 2420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 4780 2340 50  0001 C CNN
+F 3 "" H 4750 2500 50  0001 C CNN
+F 4 "N/A" H 4730 2260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4730 2180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4730 2110 50  0001 C CNN "Unit Price"
+	1    4750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D448869
+P 5250 2500
+F 0 "CN?" H 5250 2560 50  0000 C CNN
+F 1 "M3_Screw" H 5270 2420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5280 2340 50  0001 C CNN
+F 3 "" H 5250 2500 50  0001 C CNN
+F 4 "N/A" H 5230 2260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5230 2180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5230 2110 50  0001 C CNN "Unit Price"
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D448975
+P 4750 2750
+F 0 "CN?" H 4750 2810 50  0000 C CNN
+F 1 "M3_Screw" H 4770 2670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 4780 2590 50  0001 C CNN
+F 3 "" H 4750 2750 50  0001 C CNN
+F 4 "N/A" H 4730 2510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4730 2430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4730 2360 50  0001 C CNN "Unit Price"
+	1    4750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D448982
+P 5250 2750
+F 0 "CN?" H 5250 2810 50  0000 C CNN
+F 1 "M3_Screw" H 5270 2670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5280 2590 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+F 4 "N/A" H 5230 2510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5230 2430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5230 2360 50  0001 C CNN "Unit Price"
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D449085
+P 4750 3000
+F 0 "CN?" H 4750 3060 50  0000 C CNN
+F 1 "M3_Screw" H 4770 2920 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 4780 2840 50  0001 C CNN
+F 3 "" H 4750 3000 50  0001 C CNN
+F 4 "N/A" H 4730 2760 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4730 2680 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4730 2610 50  0001 C CNN "Unit Price"
+	1    4750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D449092
+P 5250 3000
+F 0 "CN?" H 5250 3060 50  0000 C CNN
+F 1 "M3_Screw" H 5270 2920 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5280 2840 50  0001 C CNN
+F 3 "" H 5250 3000 50  0001 C CNN
+F 4 "N/A" H 5230 2760 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5230 2680 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5230 2610 50  0001 C CNN "Unit Price"
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44909F
+P 4750 3250
+F 0 "CN?" H 4750 3310 50  0000 C CNN
+F 1 "M3_Screw" H 4770 3170 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 4780 3090 50  0001 C CNN
+F 3 "" H 4750 3250 50  0001 C CNN
+F 4 "N/A" H 4730 3010 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4730 2930 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4730 2860 50  0001 C CNN "Unit Price"
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D4490AC
+P 5250 3250
+F 0 "CN?" H 5250 3310 50  0000 C CNN
+F 1 "M3_Screw" H 5270 3170 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5280 3090 50  0001 C CNN
+F 3 "" H 5250 3250 50  0001 C CNN
+F 4 "N/A" H 5230 3010 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5230 2930 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5230 2860 50  0001 C CNN "Unit Price"
+	1    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5B9
+P 6500 3250
+F 0 "CN?" H 6500 3310 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 3170 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 3090 50  0001 C CNN
+F 3 "" H 6500 3250 50  0001 C CNN
+F 4 "N/A" H 6480 3010 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 2930 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 2860 50  0001 C CNN "Unit Price"
+	1    6500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5C6
+P 6500 2500
+F 0 "CN?" H 6500 2560 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 2420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 2340 50  0001 C CNN
+F 3 "" H 6500 2500 50  0001 C CNN
+F 4 "N/A" H 6480 2260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 2180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 2110 50  0001 C CNN "Unit Price"
+	1    6500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5D3
+P 6500 3500
+F 0 "CN?" H 6500 3560 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 3420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 3340 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+F 4 "N/A" H 6480 3260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 3180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 3110 50  0001 C CNN "Unit Price"
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5E0
+P 6500 2750
+F 0 "CN?" H 6500 2810 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 2670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 2590 50  0001 C CNN
+F 3 "" H 6500 2750 50  0001 C CNN
+F 4 "N/A" H 6480 2510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 2430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 2360 50  0001 C CNN "Unit Price"
+	1    6500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5ED
+P 6500 2250
+F 0 "CN?" H 6500 2310 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 2170 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 2090 50  0001 C CNN
+F 3 "" H 6500 2250 50  0001 C CNN
+F 4 "N/A" H 6480 2010 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 1930 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 1860 50  0001 C CNN "Unit Price"
+	1    6500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B5FA
+P 6500 3000
+F 0 "CN?" H 6500 3060 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 2920 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 2840 50  0001 C CNN
+F 3 "" H 6500 3000 50  0001 C CNN
+F 4 "N/A" H 6480 2760 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 2680 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 2610 50  0001 C CNN "Unit Price"
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B607
+P 6500 2000
+F 0 "CN?" H 6500 2060 50  0000 C CNN
+F 1 "Pot_Dial" H 6520 1920 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 6530 1840 50  0001 C CNN
+F 3 "" H 6500 2000 50  0001 C CNN
+F 4 "N/A" H 6480 1760 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6480 1680 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6480 1610 50  0001 C CNN "Unit Price"
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44B614
+P 7000 3750
+F 0 "CN?" H 7000 3810 50  0000 C CNN
+F 1 "Jack" H 7020 3670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 3590 50  0001 C CNN
+F 3 "" H 7000 3750 50  0001 C CNN
+F 4 "N/A" H 6980 3510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 3430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 3360 50  0001 C CNN "Unit Price"
+	1    7000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44F527
+P 7000 2500
+F 0 "CN?" H 7000 2560 50  0000 C CNN
+F 1 "Jack" H 7020 2420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 2340 50  0001 C CNN
+F 3 "" H 7000 2500 50  0001 C CNN
+F 4 "N/A" H 6980 2260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 2180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 2110 50  0001 C CNN "Unit Price"
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44F534
+P 7000 2750
+F 0 "CN?" H 7000 2810 50  0000 C CNN
+F 1 "Jack" H 7020 2670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 2590 50  0001 C CNN
+F 3 "" H 7000 2750 50  0001 C CNN
+F 4 "N/A" H 6980 2510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 2430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 2360 50  0001 C CNN "Unit Price"
+	1    7000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44F541
+P 7000 3000
+F 0 "CN?" H 7000 3060 50  0000 C CNN
+F 1 "Jack" H 7020 2920 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 2840 50  0001 C CNN
+F 3 "" H 7000 3000 50  0001 C CNN
+F 4 "N/A" H 6980 2760 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 2680 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 2610 50  0001 C CNN "Unit Price"
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D44F54E
+P 7000 3250
+F 0 "CN?" H 7000 3310 50  0000 C CNN
+F 1 "Jack" H 7020 3170 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 3090 50  0001 C CNN
+F 3 "" H 7000 3250 50  0001 C CNN
+F 4 "N/A" H 6980 3010 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 2930 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 2860 50  0001 C CNN "Unit Price"
+	1    7000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN?
+U 1 1 5D4504AD
+P 7000 3500
+F 0 "CN?" H 7000 3560 50  0000 C CNN
+F 1 "Jack" H 7020 3420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 7030 3340 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+F 4 "N/A" H 6980 3260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 6980 3180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 6980 3110 50  0001 C CNN "Unit Price"
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 4725 2375 0    50   ~ 0
+Mounting Holes
+Text Notes 7250 2500 0    50   ~ 0
+Input 1
+Text Notes 7250 2750 0    50   ~ 0
+Input 2
+Text Notes 7250 3000 0    50   ~ 0
+Crossfade
+Text Notes 7250 3250 0    50   ~ 0
+VCA CV1
+Text Notes 7250 3500 0    50   ~ 0
+VCA CV2
+Text Notes 7250 3750 0    50   ~ 0
+Output
+Text Notes 6750 2000 0    50   ~ 0
+Crossfade CTRL
+Text Notes 6750 2250 0    50   ~ 0
+VCA CTRL
+$EndSCHEMATC

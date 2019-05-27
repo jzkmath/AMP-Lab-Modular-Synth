@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "JZK Envelope Generator"
-Date "2019-05-12"
-Rev "A"
+Date "2019-05-26"
+Rev "B"
 Comp "Jonathan Kayne"
 Comment1 "Based off Design from yusynth.com"
 Comment2 ""
@@ -20,8 +20,11 @@ U 1 1 5CE359A9
 P 2650 3250
 F 0 "Q2" H 2475 3300 50  0000 L CNN
 F 1 "BC847" H 2450 3400 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2850 3175 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2850 3175 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2650 3250 50  0001 L CNN
+F 4 "https://www.digikey.com/short/p4nf4c" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "BC847CLT1GOSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    2650 3250
 	1    0    0    -1  
 $EndComp
@@ -33,6 +36,9 @@ F 0 "R3" V 2330 2800 50  0000 C CNN
 F 1 "22k" V 2250 2800 50  0000 C CNN
 F 2 "Synth:R_1206" V 2180 2800 50  0001 C CNN
 F 3 "~" H 2250 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr22" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130554CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.33" H 0   0   50  0001 C CNN "Unit Price"
 	1    2250 2800
 	1    0    0    -1  
 $EndComp
@@ -44,6 +50,9 @@ F 0 "R5" V 2830 2800 50  0000 C CNN
 F 1 "22k" V 2750 2800 50  0000 C CNN
 F 2 "Synth:R_1206" V 2680 2800 50  0001 C CNN
 F 3 "~" H 2750 2800 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr22" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130554CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.33" H 0   0   50  0001 C CNN "Unit Price"
 	1    2750 2800
 	1    0    0    -1  
 $EndComp
@@ -53,8 +62,11 @@ U 1 1 5CE348A7
 P 2150 3500
 F 0 "Q1" H 2350 3575 50  0000 L CNN
 F 1 "BC847" H 2350 3500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2350 3425 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2350 3425 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2150 3500 50  0001 L CNN
+F 4 "https://www.digikey.com/short/p4nf4c" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "BC847CLT1GOSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    2150 3500
 	1    0    0    -1  
 $EndComp
@@ -76,6 +88,9 @@ F 0 "R4" V 2580 4000 50  0000 C CNN
 F 1 "10" V 2500 4000 50  0000 C CNN
 F 2 "Synth:R_1206" V 2430 4000 50  0001 C CNN
 F 3 "~" H 2500 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrn9" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "P10ALCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.17" H 0   0   50  0001 C CNN "Unit Price"
 	1    2500 4000
 	1    0    0    -1  
 $EndComp
@@ -115,6 +130,9 @@ F 0 "R1" V 1330 4000 50  0000 C CNN
 F 1 "1.2M" V 1250 4000 50  0000 C CNN
 F 2 "Synth:R_1206" V 1180 4000 50  0001 C CNN
 F 3 "~" H 1250 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf4f" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-1.20MFRCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1250 4000
 	1    0    0    -1  
 $EndComp
@@ -126,6 +144,9 @@ F 0 "R2" V 1580 3500 50  0000 C CNN
 F 1 "1M" V 1500 3500 50  0000 C CNN
 F 2 "Synth:R_1206" V 1430 3500 50  0001 C CNN
 F 3 "~" H 1500 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrn7" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "RMCF1206JT1M00CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    1500 3500
 	0    1    1    0   
 $EndComp
@@ -188,6 +209,9 @@ F 0 "C3" V 3300 3050 50  0000 L CNN
 F 1 "10nF" V 3125 2925 50  0000 L CNN
 F 2 "Synth:C_1206" H 3288 2850 50  0001 C CNN
 F 3 "~" H 3250 3000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf4h" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-1174-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    3250 3000
 	0    1    1    0   
 $EndComp
@@ -199,6 +223,9 @@ F 0 "U2" H 4600 3300 50  0000 L CNN
 F 1 "NE555" H 5100 3300 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5000 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5000 2950 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nfzd" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "296-6501-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.48" H 0   0   50  0001 C CNN "Unit Price"
 	1    5000 2950
 	1    0    0    -1  
 $EndComp
@@ -232,6 +259,9 @@ F 0 "C5" V 5300 2500 50  0000 L CNN
 F 1 "0.1uF" V 5125 2350 50  0000 L CNN
 F 2 "Synth:C_1206" H 5288 2300 50  0001 C CNN
 F 3 "~" H 5250 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5250 2450
 	0    1    1    0   
 $EndComp
@@ -265,6 +295,9 @@ F 0 "C4" H 4475 3550 50  0000 L CNN
 F 1 "10nF" H 4475 3350 50  0000 L CNN
 F 2 "Synth:C_1206" H 4488 3300 50  0001 C CNN
 F 3 "~" H 4450 3450 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf4h" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-1174-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.25" H 0   0   50  0001 C CNN "Unit Price"
 	1    4450 3450
 	1    0    0    -1  
 $EndComp
@@ -294,8 +327,11 @@ U 1 1 5CE4D62F
 P 3800 3000
 F 0 "Q3" H 4000 3075 50  0000 L CNN
 F 1 "BC847" H 4000 3000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 2925 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4000 2925 50  0001 L CIN
 F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3800 3000 50  0001 L CNN
+F 4 "https://www.digikey.com/short/p4nf4c" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "BC847CLT1GOSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    3800 3000
 	1    0    0    -1  
 $EndComp
@@ -307,6 +343,9 @@ F 0 "R6" V 3580 3250 50  0000 C CNN
 F 1 "22k" V 3500 3250 50  0000 C CNN
 F 2 "Synth:R_1206" V 3430 3250 50  0001 C CNN
 F 3 "~" H 3500 3250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr22" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130554CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.33" H 0   0   50  0001 C CNN "Unit Price"
 	1    3500 3250
 	1    0    0    -1  
 $EndComp
@@ -347,6 +386,9 @@ F 0 "R7" V 3980 2550 50  0000 C CNN
 F 1 "22k" V 3900 2550 50  0000 C CNN
 F 2 "Synth:R_1206" V 3830 2550 50  0001 C CNN
 F 3 "~" H 3900 2550 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr22" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130554CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.33" H 0   0   50  0001 C CNN "Unit Price"
 	1    3900 2550
 	1    0    0    -1  
 $EndComp
@@ -379,8 +421,11 @@ U 1 1 5CEECFD0
 P 5650 1750
 F 0 "Q4" H 5850 1825 50  0000 L CNN
 F 1 "2N7002" H 5850 1750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5850 1675 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5850 1675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5650 1750 50  0001 L CNN
+F 4 "https://www.digikey.com/short/p4nf48" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "2N7002NCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.39" H 0   0   50  0001 C CNN "Unit Price"
 	1    5650 1750
 	1    0    0    -1  
 $EndComp
@@ -392,6 +437,9 @@ F 0 "R8" V 5330 1750 50  0000 C CNN
 F 1 "1M" V 5250 1750 50  0000 C CNN
 F 2 "Synth:R_1206" V 5180 1750 50  0001 C CNN
 F 3 "~" H 5250 1750 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrn7" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "RMCF1206JT1M00CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    5250 1750
 	0    1    1    0   
 $EndComp
@@ -411,10 +459,13 @@ U 1 1 5CEF8FC5
 P 5750 1250
 F 0 "RV1" V 5675 1250 50  0000 C CNN
 F 1 "25k" V 5750 1250 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5750 1250 50  0001 C CNN
+F 2 "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5750 1250 50  0001 C CNN
 F 3 "~" H 5750 1250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nfq1" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "PTV09A-4020F-B203-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.83" H 0   0   50  0001 C CNN "Unit Price"
 	1    5750 1250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R9
@@ -424,6 +475,9 @@ F 0 "R9" V 5830 900 50  0000 C CNN
 F 1 "4.7k" V 5750 900 50  0000 C CNN
 F 2 "Synth:R_1206" V 5680 900 50  0001 C CNN
 F 3 "~" H 5750 900 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr81" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130181CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    5750 900 
 	1    0    0    -1  
 $EndComp
@@ -442,8 +496,6 @@ Wire Wire Line
 	5750 1050 5750 1100
 Wire Wire Line
 	5750 1400 5750 1550
-Text Notes 5300 1275 0    50   ~ 0
-Sustain
 $Comp
 L Amplifier_Operational:TL074 U1
 U 1 1 5CEFC639
@@ -452,6 +504,9 @@ F 0 "U1" H 6550 1350 50  0000 L CNN
 F 1 "TL074" H 6550 950 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 1250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6600 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrh2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "296-1283-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.60" H 0   0   50  0001 C CNN "Unit Price"
 	1    6550 1150
 	1    0    0    1   
 $EndComp
@@ -476,15 +531,16 @@ U 1 1 5CF02979
 P 7500 1150
 F 0 "RV4" V 7425 1150 50  0000 C CNN
 F 1 "1M Log" V 7500 1150 31  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7500 1150 50  0001 C CNN
+F 2 "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7500 1150 50  0001 C CNN
 F 3 "~" H 7500 1150 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nfhw" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "PTV09A-4020F-A504-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.83" H 0   0   50  0001 C CNN "Unit Price"
 	1    7500 1150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7275 1150 7350 1150
-Text Notes 7400 1000 0    50   ~ 0
-Decay
 $Comp
 L Device:R R12
 U 1 1 5CF04D05
@@ -493,6 +549,9 @@ F 0 "R12" V 7580 1500 50  0000 C CNN
 F 1 "100" V 7500 1500 50  0000 C CNN
 F 2 "Synth:R_1206" V 7430 1500 50  0001 C CNN
 F 3 "~" H 7500 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf40" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "RNCP1206FTD100RCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    7500 1500
 	1    0    0    -1  
 $EndComp
@@ -504,8 +563,11 @@ U 1 1 5CF06667
 P 6250 2750
 F 0 "RV2" V 6150 2750 50  0000 C CNN
 F 1 "1M Log" V 6250 2750 31  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6250 2750 50  0001 C CNN
+F 2 "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nfhw" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "PTV09A-4020F-A504-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.83" H 0   0   50  0001 C CNN "Unit Price"
 	1    6250 2750
 	0    -1   -1   0   
 $EndComp
@@ -513,16 +575,17 @@ Wire Wire Line
 	5500 2750 6100 2750
 Wire Wire Line
 	6250 2600 6250 2250
-Text Notes 6125 2975 0    50   ~ 0
-Attack
 $Comp
 L Device:R_POT RV3
 U 1 1 5CF0D29E
 P 6250 4000
 F 0 "RV3" V 6150 4000 50  0000 C CNN
 F 1 "1M Log" V 6250 4000 31  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6250 4000 50  0001 C CNN
+F 2 "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6250 4000 50  0001 C CNN
 F 3 "~" H 6250 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nfhw" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "PTV09A-4020F-A504-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.83" H 0   0   50  0001 C CNN "Unit Price"
 	1    6250 4000
 	0    -1   -1   0   
 $EndComp
@@ -545,6 +608,9 @@ F 0 "R10" V 6330 3600 50  0000 C CNN
 F 1 "100" V 6250 3600 50  0000 C CNN
 F 2 "Synth:R_1206" V 6180 3600 50  0001 C CNN
 F 3 "~" H 6250 3600 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf40" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "RNCP1206FTD100RCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    6250 3600
 	1    0    0    -1  
 $EndComp
@@ -562,6 +628,9 @@ F 0 "R11" V 6705 2250 50  0000 C CNN
 F 1 "100" V 6625 2250 50  0000 C CNN
 F 2 "Synth:R_1206" V 6555 2250 50  0001 C CNN
 F 3 "~" H 6625 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf40" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "RNCP1206FTD100RCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    6625 2250
 	0    1    1    0   
 $EndComp
@@ -584,6 +653,9 @@ F 0 "C6" H 7525 3600 50  0000 L CNN
 F 1 "10uF" H 7525 3400 50  0000 L CNN
 F 2 "Synth:CP_Tantalum_7343" H 7500 3500 50  0001 C CNN
 F 3 "~" H 7500 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nf4z" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "718-1046-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.70" H 0   0   50  0001 C CNN "Unit Price"
 	1    7500 3500
 	1    0    0    -1  
 $EndComp
@@ -601,8 +673,6 @@ $EndComp
 Wire Wire Line
 	7500 3350 7500 3250
 Connection ~ 7500 3250
-Text Notes 6100 4200 0    50   ~ 0
-Release
 Text GLabel 5750 3150 2    50   Output ~ 0
 EG_Out
 Wire Wire Line
@@ -615,6 +685,9 @@ F 0 "U1" H 8300 2850 50  0000 L CNN
 F 1 "TL074" H 8300 2450 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8250 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8350 2850 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrh2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "296-1283-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.60" H 0   0   50  0001 C CNN "Unit Price"
 	2    8300 2650
 	1    0    0    1   
 $EndComp
@@ -641,6 +714,9 @@ F 0 "R14" V 9080 2650 50  0000 C CNN
 F 1 "1k" V 9000 2650 50  0000 C CNN
 F 2 "Synth:R_1206" V 8930 2650 50  0001 C CNN
 F 3 "~" H 9000 2650 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrdz" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-1.0KERCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    9000 2650
 	0    1    1    0   
 $EndComp
@@ -664,6 +740,9 @@ F 0 "U1" H 9175 1775 50  0000 L CNN
 F 1 "TL074" H 9175 1375 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9125 1675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9225 1775 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrh2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "296-1283-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.60" H 0   0   50  0001 C CNN "Unit Price"
 	3    9175 1575
 	1    0    0    1   
 $EndComp
@@ -673,8 +752,11 @@ U 1 1 5CF31CB5
 P 10125 1375
 F 0 "D6" H 10125 1475 50  0000 C CNN
 F 1 "LED" H 10125 1275 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm" H 10125 1375 50  0001 C CNN
+F 2 "Synth:LED_D3.0mm_Clear" H 10125 1375 50  0001 C CNN
 F 3 "~" H 10125 1375 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "N/A" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.00" H 0   0   50  0001 C CNN "Unit Price"
 	1    10125 1375
 	0    -1   -1   0   
 $EndComp
@@ -708,6 +790,9 @@ F 0 "R13" V 8705 1475 50  0000 C CNN
 F 1 "1k" V 8625 1475 50  0000 C CNN
 F 2 "Synth:R_1206" V 8555 1475 50  0001 C CNN
 F 3 "~" H 8625 1475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrdz" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-1.0KERCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    8625 1475
 	0    1    1    0   
 $EndComp
@@ -743,6 +828,9 @@ F 0 "U1" H 2775 1525 50  0000 L CNN
 F 1 "TL074" H 2775 1125 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2725 1425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2825 1525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrh2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "296-1283-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.60" H 0   0   50  0001 C CNN "Unit Price"
 	5    2775 1325
 	1    0    0    -1  
 $EndComp
@@ -754,6 +842,9 @@ F 0 "C2" H 2450 1625 50  0000 L CNN
 F 1 "0.1uF" H 2200 1425 50  0000 L CNN
 F 2 "Synth:C_1206" H 2463 1375 50  0001 C CNN
 F 3 "~" H 2425 1525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    2425 1525
 	1    0    0    -1  
 $EndComp
@@ -765,6 +856,9 @@ F 0 "C1" H 2450 1225 50  0000 L CNN
 F 1 "0.1uF" H 2200 1025 50  0000 L CNN
 F 2 "Synth:C_1206" H 2463 975 50  0001 C CNN
 F 3 "~" H 2425 1125 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    2425 1125
 	1    0    0    -1  
 $EndComp
@@ -836,6 +930,9 @@ F 0 "J1" H 1450 1650 50  0000 C CNN
 F 1 "Power" H 1450 1050 50  0000 C CNN
 F 2 "Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag" H 1400 1350 50  0001 C CNN
 F 3 "~" H 1400 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr5h" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "609-3243-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.27" H 0   0   50  0001 C CNN "Unit Price"
 	1    1400 1350
 	1    0    0    -1  
 $EndComp
@@ -944,15 +1041,12 @@ L Synth:MJ-3502 J2
 U 1 1 5CFA2E46
 P 9900 3250
 F 0 "J2" H 9600 3480 50  0000 L BNN
-F 1 "MJ-3502" H 9600 2950 50  0000 L BNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9400 2500 50  0001 L BNN
+F 1 "4832" H 9600 2950 50  0000 L BNN
+F 2 "Synth:Schurter_4832_Jack" H 9400 2500 50  0001 L BNN
 F 3 "" H 9250 2700 50  0001 L BNN
-F 4 "CP-3502MJ-ND" H 9500 2550 50  0001 L BNN "Field4"
-F 5 "None" H 9150 3050 50  0001 L BNN "Field5"
-F 6 "MJ-3502" H 9000 2600 50  0001 L BNN "Field6"
-F 7 "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 9300 2800 50  0001 L BNN "Field7"
-F 8 "3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector" H 9200 2900 50  0001 L BNN "Field8"
-F 9 "CUI Inc." H 8800 3050 50  0001 L BNN "Field9"
+F 4 "https://www.digikey.com/short/p4nr1r" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "486-3418-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "1.50" H 0   0   50  0001 C CNN "Unit Price"
 	1    9900 3250
 	-1   0    0    1   
 $EndComp
@@ -987,15 +1081,12 @@ L Synth:MJ-3502 J3
 U 1 1 5CFBB09D
 P 9900 3925
 F 0 "J3" H 9600 4155 50  0000 L BNN
-F 1 "MJ-3502" H 9600 3625 50  0000 L BNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9400 3175 50  0001 L BNN
+F 1 "4832" H 9600 3625 50  0000 L BNN
+F 2 "Synth:Schurter_4832_Jack" H 9400 3175 50  0001 L BNN
 F 3 "" H 9250 3375 50  0001 L BNN
-F 4 "CP-3502MJ-ND" H 9500 3225 50  0001 L BNN "Field4"
-F 5 "None" H 9150 3725 50  0001 L BNN "Field5"
-F 6 "MJ-3502" H 9000 3275 50  0001 L BNN "Field6"
-F 7 "https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" H 9300 3475 50  0001 L BNN "Field7"
-F 8 "3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector" H 9200 3575 50  0001 L BNN "Field8"
-F 9 "CUI Inc." H 8800 3725 50  0001 L BNN "Field9"
+F 4 "https://www.digikey.com/short/p4nr1r" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "486-3418-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "1.50" H 0   0   50  0001 C CNN "Unit Price"
 	1    9900 3925
 	-1   0    0    1   
 $EndComp
@@ -1031,8 +1122,11 @@ U 1 1 5CFD08DE
 P 1750 4000
 F 0 "D1" H 1750 4100 50  0000 C CNN
 F 1 "1N4148W" H 1750 3900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 1750 3825 50  0001 C CNN
+F 2 "Synth:D_SOD-123" H 1750 3825 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1750 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrm2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    1750 4000
 	0    1    1    0   
 $EndComp
@@ -1042,8 +1136,11 @@ U 1 1 5CFD2E71
 P 5750 4000
 F 0 "D2" H 5750 4100 50  0000 C CNN
 F 1 "1N4148W" H 5750 3900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 5750 3825 50  0001 C CNN
+F 2 "Synth:D_SOD-123" H 5750 3825 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5750 4000 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrm2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    5750 4000
 	1    0    0    -1  
 $EndComp
@@ -1053,8 +1150,11 @@ U 1 1 5CFD35FD
 P 7125 2250
 F 0 "D4" H 7125 2350 50  0000 C CNN
 F 1 "1N4148W" H 7125 2150 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7125 2075 50  0001 C CNN
+F 2 "Synth:D_SOD-123" H 7125 2075 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7125 2250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrm2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    7125 2250
 	-1   0    0    1   
 $EndComp
@@ -1064,8 +1164,11 @@ U 1 1 5CFD44DE
 P 7125 1150
 F 0 "D3" H 7125 1250 50  0000 C CNN
 F 1 "1N4148W" H 7125 1050 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7125 975 50  0001 C CNN
+F 2 "Synth:D_SOD-123" H 7125 975 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7125 1150 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrm2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    7125 1150
 	1    0    0    -1  
 $EndComp
@@ -1075,8 +1178,11 @@ U 1 1 5CFD4F31
 P 9625 1375
 F 0 "D5" H 9625 1475 50  0000 C CNN
 F 1 "1N4148W" H 9625 1275 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 9625 1200 50  0001 C CNN
+F 2 "Synth:D_SOD-123" H 9625 1200 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 9625 1375 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrm2" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.14" H 0   0   50  0001 C CNN "Unit Price"
 	1    9625 1375
 	0    1    1    0   
 $EndComp
@@ -1088,4 +1194,68 @@ Text Notes 6425 2775 0    50   ~ 0
 CW
 Text Notes 6425 4025 0    50   ~ 0
 CW
+$Comp
+L Synth:M3_Screw CN1
+U 1 1 5CEEC4AC
+P 1250 2300
+F 0 "CN1" H 1250 2360 50  0000 C CNN
+F 1 "M3_Screw" H 1270 2220 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 1280 2140 50  0001 C CNN
+F 3 "" H 1250 2300 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "N/A" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.00" H 0   0   50  0001 C CNN "Unit Price"
+	1    1250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN3
+U 1 1 5CEED599
+P 1750 2300
+F 0 "CN3" H 1750 2360 50  0000 C CNN
+F 1 "M3_Screw" H 1770 2220 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 1780 2140 50  0001 C CNN
+F 3 "" H 1750 2300 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "N/A" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.00" H 0   0   50  0001 C CNN "Unit Price"
+	1    1750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN2
+U 1 1 5CEEDD27
+P 1250 2550
+F 0 "CN2" H 1250 2610 50  0000 C CNN
+F 1 "M3_Screw" H 1270 2470 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 1280 2390 50  0001 C CNN
+F 3 "" H 1250 2550 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "N/A" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.00" H 0   0   50  0001 C CNN "Unit Price"
+	1    1250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN4
+U 1 1 5CEEE4C7
+P 1750 2550
+F 0 "CN4" H 1750 2610 50  0000 C CNN
+F 1 "M3_Screw" H 1770 2470 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 1780 2390 50  0001 C CNN
+F 3 "" H 1750 2550 50  0001 C CNN
+F 4 "N/A" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "N/A" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.00" H 0   0   50  0001 C CNN "Unit Price"
+	1    1750 2550
+	1    0    0    -1  
+$EndComp
+Text Label 6250 3825 0    50   ~ 0
+Release
+Text Label 6250 2525 0    50   ~ 0
+Attack
+Text Label 7500 1325 0    50   ~ 0
+Decay
+Text Label 5925 1250 0    50   ~ 0
+Sustain
 $EndSCHEMATC

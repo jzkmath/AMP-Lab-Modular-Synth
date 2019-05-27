@@ -1,8 +1,8 @@
-(module Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand (layer F.Cu) (tedit 5CA3A7AE)
+(module CP_Tantalum_7343 (layer F.Cu) (tedit 5CE9659D)
   (descr "Tantalum capacitor, Case D, EIA 7343-31, 7.3x4.3x2.8mm, Hand soldering footprint")
   (tags "capacitor tantalum smd")
   (attr smd)
-  (fp_text reference REF** (at 0 -3.9) (layer F.SilkS)
+  (fp_text reference REF** (at 0.3 -3.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value CP_Tantalum_7343 (at 0 3.9) (layer F.Fab)
@@ -29,7 +29,7 @@
   (fp_line (start -2.555 -2.15) (end -2.555 2.15) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at -3.775 0) (size 3.75 2.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.775 0) (size 3.75 2.7) (layers F.Cu F.Paste F.Mask))
-  (model Capacitors_Tantalum_SMD.3dshapes/CP_Tantalum_Case-D_EIA-7343-31.wrl
+  (model "C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.pretty/CP_EIA-7343-31_Kemet-D.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

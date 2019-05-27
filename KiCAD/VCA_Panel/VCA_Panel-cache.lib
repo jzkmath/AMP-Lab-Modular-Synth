@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Synth_M3_Screw
+#
+DEF Synth_M3_Screw CN 0 40 Y Y 1 F N
+F0 "CN" 0 60 50 H V C CNN
+F1 "Synth_M3_Screw" 20 -80 50 H V C CNN
+F2 "Synth:M3_Screw_Hole" 30 -160 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "N/A" -20 -240 50 H I C CNN "Digikey PN"
+F5 "N/A" -20 -320 50 H I C CNN "Digikey Link"
+F6 "0.00" -20 -390 50 H I C CNN "Unit Price"
+DRAW
+C 0 0 32 0 1 0 f
+P 2 0 1 0 -20 20 20 -20 N
+P 2 0 1 0 20 20 -20 -20 N
+X 1 1 -260 0 100 R 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
+#End Library

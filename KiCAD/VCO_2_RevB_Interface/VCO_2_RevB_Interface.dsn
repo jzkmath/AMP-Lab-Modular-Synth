@@ -1,0 +1,302 @@
+(pcb "C:\Users\Jonathan Kayne\Documents\KiCAD\Modular Synth\VCO_2_RevB_Interface\VCO_2_RevB_Interface.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.0)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  115000 -130000  45000 -130000  45000 -30000  115000 -30000
+            115000 -130000)
+    )
+    (plane GND (polygon F.Cu 0  43000 -28300  118500 -28300  118500 -130600  41700 -130600
+            43000 -28300))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Synth:Schurter_4832_Jack
+      (place J5 72500 -104250 back 180 (PN 4832))
+      (place J6 57500 -104250 back 180 (PN 4832))
+      (place J7 57500 -120250 back 180 (PN 4832))
+      (place J8 102500 -120250 back 180 (PN 4832))
+      (place J9 87500 -120250 back 180 (PN 4832))
+      (place J10 72500 -120250 back 180 (PN 4832))
+      (place J11 72500 -88250 back 180 (PN 4832))
+      (place J12 87500 -88250 back 180 (PN 4832))
+      (place J13 87500 -104250 back 180 (PN 4832))
+      (place J14 102500 -104250 back 180 (PN 4832))
+    )
+    (component "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+      (place RV1 95000 -41750 back 270 (PN 25k))
+      (place RV2 65000 -41750 back 270 (PN 25k))
+      (place RV3 105000 -81750 back 270 (PN 25k))
+      (place RV4 55000 -81750 back 270 (PN 25k))
+      (place RV5 65000 -61750 back 270 (PN 25k))
+      (place RV6 95000 -61750 back 270 (PN 25k))
+    )
+    (component Synth:M3_Screw_Hole
+      (place CN1 110000 -125000 front 0 (PN M3_Screw))
+      (place CN2 50000 -125000 front 0 (PN M3_Screw))
+      (place CN3 110000 -35000 front 0 (PN M3_Screw))
+      (place CN4 50000 -35000 front 0 (PN M3_Screw))
+    )
+    (component Synth:PinHeader_2x09_P2.54mm_Vertical_Zigzag
+      (place J1 70000 -35000 front 90 (PN Interface))
+    )
+    (component Synth:ChibiHead
+      (place PHOTO1 79800 -67500 back 0 (PN LOGO))
+    )
+  )
+  (library
+    (image Synth:Schurter_4832_Jack
+      (outline (path signal 150  -5000 -4900  -5000 5600))
+      (outline (path signal 150  4000 -4900  -5000 -4900))
+      (outline (path signal 150  4000 5600  4000 -4900))
+      (outline (path signal 150  -5000 5600  4000 5600))
+      (pin Oval[A]Pad_1000x2100_um (rotate 270) 3 1000 4400)
+      (pin Oval[A]Pad_1000x2100_um (rotate 180) 2 -3800 -1400)
+      (pin Oval[A]Pad_1000x2100_um (rotate 90) 1 1000 -3700)
+    )
+    (image "Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
+      (outline (path signal 100  3000 0  2919.14 -691.848  2680.9 -1346.4  2298.13 -1928.36
+            1791.48 -2406.37  1188.24 -2754.65  520.945 -2954.42  -174.434 -2994.92
+            -860.41 -2873.97  -1500 -2598.08  -2058.72 -2182.12  -2506.46 -1648.53
+            -2819.08 -1026.06  -2979.72 -348.279  -2979.72 348.279  -2819.08 1026.06
+            -2506.46 1648.53  -2058.72 2182.12  -1500 2598.08  -860.41 2873.97
+            -174.434 2994.92  520.945 2954.42  1188.24 2754.65  1791.48 2406.37
+            2298.13 1928.36  2680.9 1346.4  2919.14 691.848  3000 0))
+      (outline (path signal 100  -6500 4850  -6500 -4850))
+      (outline (path signal 100  -6500 -4850  5500 -4850))
+      (outline (path signal 100  5500 -4850  5500 4850))
+      (outline (path signal 100  5500 4850  -6500 4850))
+      (outline (path signal 120  -6620 4970  -2755 4970))
+      (outline (path signal 120  1755 4970  5620 4970))
+      (outline (path signal 120  -6620 -4970  -2755 -4970))
+      (outline (path signal 120  1755 -4970  5620 -4970))
+      (outline (path signal 120  -6620 4970  -6620 3371))
+      (outline (path signal 120  -6620 1629  -6620 870))
+      (outline (path signal 120  -6620 -871  -6620 -1630))
+      (outline (path signal 120  -6620 -3370  -6620 -4970))
+      (outline (path signal 120  5620 4970  5620 -4970))
+      (outline (path signal 50  -8650 6650  -8650 -6650))
+      (outline (path signal 50  -8650 -6650  5750 -6650))
+      (outline (path signal 50  5750 -6650  5750 6650))
+      (outline (path signal 50  5750 6650  -8650 6650))
+      (pin Round[A]Pad_1800_um 3 -7500 2500)
+      (pin Round[A]Pad_1800_um 2 -7500 0)
+      (pin Round[A]Pad_1800_um 1 -7500 -2500)
+      (pin Round[A]Pad_4000_um @1 -500 4400)
+      (pin Round[A]Pad_4000_um @2 -500 -4400)
+    )
+    (image Synth:M3_Screw_Hole
+      (outline (path signal 100  2154.07 0  2074.19 -581.16  1840.48 -1119.22  1470.26 -1574.27
+            991.01 -1912.56  438.258 -2109.01  -146.999 -2149.04  -721.353 -2029.69
+            -1242.21 -1759.81  -1670.93 -1359.4  -1975.73 -858.182  -2134 -293.312
+            -2134 293.312  -1975.73 858.182  -1670.93 1359.4  -1242.21 1759.81
+            -721.353 2029.69  -146.999 2149.04  438.258 2109.01  991.01 1912.56
+            1470.26 1574.27  1840.48 1119.22  2074.19 581.16  2154.07 0))
+      (outline (path signal 50  2600 0  2518.32 -646.594  2278.4 -1252.56  1895.32 -1779.82
+            1393.15 -2195.25  803.444 -2472.75  163.255 -2594.87  -487.191 -2553.95
+            -1107.03 -2352.55  -1657.3 -2003.33  -2103.44 -1528.24  -2417.42 -957.124
+            -2579.5 -325.866  -2579.5 325.866  -2417.42 957.124  -2103.44 1528.24
+            -1657.3 2003.33  -1107.03 2352.55  -487.191 2553.95  163.255 2594.87
+            803.444 2472.75  1393.15 2195.25  1895.32 1779.82  2278.4 1252.56
+            2518.32 646.594  2600 0))
+      (outline (path signal 120  2286 0  2208.11 -591.66  1979.73 -1143  1616.45 -1616.45
+            1143 -1979.73  591.66 -2208.11  0 -2286  -591.66 -2208.11  -1143 -1979.73
+            -1616.45 -1616.45  -1979.73 -1143  -2208.11 -591.66  -2286 0
+            -2208.11 591.66  -1979.73 1143  -1616.45 1616.45  -1143 1979.73
+            -591.66 2208.11  0 2286  591.66 2208.11  1143 1979.73  1616.45 1616.45
+            1979.73 1143  2208.11 591.66  2286 0))
+      (pin Round[A]Pad_4064_um 1 0 0)
+    )
+    (image Synth:PinHeader_2x09_P2.54mm_Vertical_Zigzag
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 1270  3810 -21590))
+      (outline (path signal 100  3810 -21590  -1270 -21590))
+      (outline (path signal 100  -1270 -21590  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 120  -1330 -21650  3870 -21650))
+      (outline (path signal 120  -1330 -1270  -1330 -21650))
+      (outline (path signal 120  3870 1330  3870 -21650))
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -22100))
+      (outline (path signal 50  -1800 -22100  4350 -22100))
+      (outline (path signal 50  4350 -22100  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 127 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2667 0)
+      (pin Oval[A]Pad_1700x1700_um 3 -127 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2413 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 127 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2667 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 -127 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2413 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 127 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2667 -10160)
+      (pin Oval[A]Pad_1700x1700_um 11 -127 -12700)
+      (pin Oval[A]Pad_1700x1700_um 12 2413 -12700)
+      (pin Oval[A]Pad_1700x1700_um 13 127 -15240)
+      (pin Oval[A]Pad_1700x1700_um 14 2667 -15240)
+      (pin Oval[A]Pad_1700x1700_um 15 -127 -17780)
+      (pin Oval[A]Pad_1700x1700_um 16 2413 -17780)
+      (pin Oval[A]Pad_1700x1700_um 17 127 -20320)
+      (pin Oval[A]Pad_1700x1700_um 18 2667 -20320)
+    )
+    (image Synth:ChibiHead
+    )
+    (padstack Round[A]Pad_1800_um
+      (shape (circle F.Cu 1800))
+      (shape (circle B.Cu 1800))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4000_um
+      (shape (circle F.Cu 4000))
+      (shape (circle B.Cu 4000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4064_um
+      (shape (circle F.Cu 4064))
+      (shape (circle B.Cu 4064))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1000x2100_um
+      (shape (path F.Cu 1000  0 -550  0 550))
+      (shape (path B.Cu 1000  0 -550  0 550))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net Sine
+      (pins J9-3 J9-2 J1-8)
+    )
+    (net CV1
+      (pins J5-3 J5-2 J1-4)
+    )
+    (net Triangle
+      (pins J10-3 J10-2 J1-9)
+    )
+    (net CV2
+      (pins J6-3 J6-2 J1-5)
+    )
+    (net Sawtooth
+      (pins J8-3 J8-2 J1-11)
+    )
+    (net PWM_CV
+      (pins RV4-2 J1-13)
+    )
+    (net Pulse
+      (pins J7-3 J7-2 J1-15)
+    )
+    (net EXP_FM_CV
+      (pins RV5-2 J1-6)
+    )
+    (net Sync
+      (pins J11-3 J11-2 J1-16)
+    )
+    (net LIN_FM_CV
+      (pins RV6-2 J1-7)
+    )
+    (net GND
+      (pins J5-1 J6-1 J7-1 J8-1 J9-1 J10-1 J11-1 J12-1 J13-1 J14-1 RV4-1 RV5-1 RV6-1
+        J1-18)
+    )
+    (net -12V
+      (pins RV1-1 RV2-1 J1-17)
+    )
+    (net +12V
+      (pins RV1-3 RV2-3 J1-1)
+    )
+    (net "Net-(J12-Pad2)"
+      (pins J12-3 J12-2 RV4-3)
+    )
+    (net "Net-(J13-Pad2)"
+      (pins J13-3 J13-2 RV5-3)
+    )
+    (net "Net-(J14-Pad2)"
+      (pins J14-3 J14-2 RV6-3)
+    )
+    (net "Net-(CN1-Pad1)"
+      (pins CN1-1)
+    )
+    (net "Net-(CN2-Pad1)"
+      (pins CN2-1)
+    )
+    (net "Net-(CN3-Pad1)"
+      (pins CN3-1)
+    )
+    (net "Net-(CN4-Pad1)"
+      (pins CN4-1)
+    )
+    (net "PW-"
+      (pins RV3-1 J1-14)
+    )
+    (net Pulse_Width
+      (pins RV3-2 J1-12)
+    )
+    (net PW+
+      (pins RV3-3 J1-10)
+    )
+    (net CV_Fine
+      (pins RV2-2 J1-3)
+    )
+    (net CV_Coarse
+      (pins RV1-2 J1-2)
+    )
+    (class kicad_default "" +12V -12V /CV_Course /CV_Fine /PulseWidth CV1
+      CV2 CV_Coarse CV_Fine EXP_FM_CV GND LIN_FM_CV "Net-(CN1-Pad1)" "Net-(CN2-Pad1)"
+      "Net-(CN3-Pad1)" "Net-(CN4-Pad1)" "Net-(J12-Pad2)" "Net-(J13-Pad2)"
+      "Net-(J14-Pad2)" "Net-(J4-Pad1)" "Net-(J4-Pad3)" PW+ "PW-" PWM_CV Pulse
+      Pulse_Width Sawtooth Sine Sync Triangle
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

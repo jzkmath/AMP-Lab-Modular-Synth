@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jonathan Kayne\Documents\KiCAD\Modular Synth\VCO_2_RevB_Interface\VCO_2_RevB_Interface.sch</source>
+    <date>05/26/19 17:50:31</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>JZK VCO2 Interface Board</title>
+        <company>Jonathan Kayne</company>
+        <rev>B</rev>
+        <date>2019-05-22</date>
+        <source>VCO_2_RevB_Interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RV1">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE6048B</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE63B49</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE673A7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE72D1A</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE79EF9</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE7BF26</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE7BF48</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE80D6D</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE80D8F</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE867F4</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE97D80</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE9EC23</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEA83BB</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEA83D4</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr1r</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEAC4B7</tstamp>
+    </comp>
+    <comp ref="RV6">
+      <value>25k</value>
+      <footprint>Synth:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nfq1</field>
+        <field name="Digikey PN">PTV09A-4020F-B203-ND</field>
+        <field name="Unit Price">0.83</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEAC4D0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Interface</value>
+      <footprint>Synth:PinHeader_2x09_P2.54mm_Vertical_Zigzag</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x09_Odd_Even" description="Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D29C07D</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D7FC7</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D892E</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D8DA2</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>M3_Screw</value>
+      <footprint>Synth:M3_Screw_Hole</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="M3_Screw" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D9223</tstamp>
+    </comp>
+    <comp ref="PHOTO1">
+      <value>ChibiHead</value>
+      <footprint>Synth:ChibiHead</footprint>
+      <fields>
+        <field name="Digikey Link">N/A</field>
+        <field name="Digikey PN">N/A</field>
+        <field name="Unit Price">0.00</field>
+      </fields>
+      <libsource lib="Synth" part="ChibiHead" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2D9B0C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x09_Odd_Even">
+      <description>Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x09_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Synth" part="ChibiHead">
+      <fields>
+        <field name="Reference">PHOTO</field>
+        <field name="Value">ChibiHead</field>
+        <field name="Footprint">Synth:ChibiHead</field>
+      </fields>
+    </libpart>
+    <libpart lib="Synth" part="M3_Screw">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">M3_Screw</field>
+        <field name="Footprint">Synth:M3_Screw_Hole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Synth" part="MJ-3502">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-3502</field>
+        <field name="Footprint">CUI_MJ-3502</field>
+        <field name="Datasheet">https://www.digikey.com/product-detail/en/cui-inc/MJ-3502/CP-3502MJ-ND/281321?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field4">CP-3502MJ-ND</field>
+        <field name="Field5">None</field>
+        <field name="Field6">MJ-3502</field>
+        <field name="Field7">https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Field8">3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector</field>
+        <field name="Field9">CUI Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Synth">
+      <uri>C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J13-Pad2)">
+      <node ref="J13" pin="3"/>
+      <node ref="J13" pin="2"/>
+      <node ref="RV5" pin="3"/>
+    </net>
+    <net code="2" name="EXP_FM_CV">
+      <node ref="J1" pin="6"/>
+      <node ref="RV5" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J14-Pad2)">
+      <node ref="J14" pin="3"/>
+      <node ref="J14" pin="2"/>
+      <node ref="RV6" pin="3"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="RV5" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="RV6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="6" name="PWM_CV">
+      <node ref="RV4" pin="2"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="7" name="CV2">
+      <node ref="J1" pin="5"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="8" name="Pulse_Width">
+      <node ref="RV3" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="9" name="PW+">
+      <node ref="RV3" pin="3"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="10" name="Sync">
+      <node ref="J1" pin="16"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="11" name="Sine">
+      <node ref="J1" pin="8"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="12" name="Triangle">
+      <node ref="J10" pin="2"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="13" name="Sawtooth">
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="14" name="Pulse">
+      <node ref="J1" pin="15"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="15" name="+12V">
+      <node ref="J1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="16" name="-12V">
+      <node ref="J1" pin="17"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(CN1-Pad1)">
+      <node ref="CN1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(CN3-Pad1)">
+      <node ref="CN3" pin="1"/>
+    </net>
+    <net code="19" name="Net-(CN2-Pad1)">
+      <node ref="CN2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(CN4-Pad1)">
+      <node ref="CN4" pin="1"/>
+    </net>
+    <net code="21" name="LIN_FM_CV">
+      <node ref="RV6" pin="2"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="22" name="CV1">
+      <node ref="J1" pin="4"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="23" name="CV_Coarse">
+      <node ref="J1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="24" name="CV_Fine">
+      <node ref="J1" pin="3"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="25" name="PW-">
+      <node ref="RV3" pin="1"/>
+      <node ref="J1" pin="14"/>
+    </net>
+  </nets>
+</export>
