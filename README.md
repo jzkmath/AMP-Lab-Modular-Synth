@@ -19,7 +19,7 @@ All PCBs will be designed in KiCAD so that the entire project can be made open s
 ![VCF Panel](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/VCF_Panel/VCF_Panel%20Render.png)
 
 ## EG
-![EG Render](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/EG/EG%20Render.png)
+![EG Render](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/EG/EG%20Render_RevB.png)
 ![EG Panel](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/EG_Panel/EG_Panel%20Render.png)
 
 ## VCA
