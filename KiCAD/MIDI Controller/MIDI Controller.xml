@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Jonathan Kayne\Documents\KiCAD\Modular Synth\MIDI Controller\MIDI Controller.sch</source>
+    <date>05/26/19 18:08:59</date>
+    <tool>Eeschema (5.1.0)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>JZK Synth MIDI controller</title>
+        <company>Jonathan Kayne</company>
+        <rev>B</rev>
+        <date>2019-05-26</date>
+        <source>MIDI Controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/External Pins/" tstamps="/5CF7EB73/">
+      <title_block>
+        <title>JZK MIDI Interface - External Connectors</title>
+        <company>Jonathan Kayne</company>
+        <rev>B</rev>
+        <date>2019-05-26</date>
+        <source>Pins.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Power</value>
+      <footprint>Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr84</field>
+        <field name="Digikey PN">609-3243-ND</field>
+        <field name="Unit Price">0.27</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD424B8</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>6N138</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrj5</field>
+        <field name="Digikey PN">160-1795-ND</field>
+        <field name="Unit Price">0.81</field>
+      </fields>
+      <libsource lib="Isolator" part="6N138" description="Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD91D0B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Synth:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrjp</field>
+        <field name="Digikey PN">311-220FRCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD93C47</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Synth:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrjp</field>
+        <field name="Digikey PN">311-220FRCT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD9432A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Synth:R_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr81</field>
+        <field name="Digikey PN">A130181CT-ND</field>
+        <field name="Unit Price">0.10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD947C4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Synth:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrz9</field>
+        <field name="Digikey PN">1N4148WTPMSCT-ND</field>
+        <field name="Unit Price">0.131</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD94D16</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD6303C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE75A18</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE946E2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE95976</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEFB580</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEFB5D0</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEFB5F7</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEFB601</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF0E2A4</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF0E2F4</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF0E31B</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF0E325</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4CAC</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4CFC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4D23</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4D2D</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4D59</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4DA9</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4DD0</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4DDA</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4E06</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4E56</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4E7D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDE4E87</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AD5293</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/pzd8zr</field>
+        <field name="Digikey PN">AD5293BRUZ-100-RL7CT-ND</field>
+        <field name="Unit Price">6.88</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="AD5293" description="Digital potentiometer 1024 pos (SPI), TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE37E6F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpn</field>
+        <field name="Digikey PN">399-1254-1-ND</field>
+        <field name="Unit Price">0.23</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE37EBF</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE37EE6</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE37EF0</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v3.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://smile.amazon.com/dp/B00NLAMS9C</field>
+        <field name="Digikey PN">B00NLAMS9C</field>
+        <field name="Unit Price">8.99</field>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D032FDC</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MIDI</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrpz</field>
+        <field name="Digikey PN">CP-1250-ND</field>
+        <field name="Unit Price">2.99</field>
+      </fields>
+      <libsource lib="Connector" part="DIN-5_180degree" description="5-pin DIN connector (5-pin DIN-5 stereo)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD8F33F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Prog Jumper</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrjv</field>
+        <field name="Digikey PN">732-5315-ND</field>
+        <field name="Unit Price">0.13</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE1DCBC</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr82</field>
+        <field name="Digikey PN">296-1283-1-ND</field>
+        <field name="Unit Price">0.60</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CF81F72</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CF93499</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CF977C7</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CF9CEF5</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CF9E55B</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr82</field>
+        <field name="Digikey PN">296-1283-1-ND</field>
+        <field name="Unit Price">0.60</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFA3A84</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFA3ACE</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFA3AF0</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFA3B12</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFA3B33</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr82</field>
+        <field name="Digikey PN">296-1283-1-ND</field>
+        <field name="Unit Price">0.60</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFBF6D2</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFBF71C</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFBF73E</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFBF760</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFBF781</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>TL074</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr82</field>
+        <field name="Digikey PN">296-1283-1-ND</field>
+        <field name="Unit Price">0.60</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFD9A8E</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>4832</value>
+      <footprint>Synth:Schurter_4832_Jack</footprint>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nrqw</field>
+        <field name="Digikey PN">486-3418-ND</field>
+        <field name="Unit Price">1.50</field>
+      </fields>
+      <libsource lib="Synth" part="MJ-3502" description=""/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5CFD9AA5</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D0220E9</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D022C48</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D039DF6</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D039E00</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D04391A</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D043924</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D043957</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Synth:C_1206</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digikey Link">https://www.digikey.com/short/p4nr3m</field>
+        <field name="Digikey PN">720-1540-1-ND</field>
+        <field name="Unit Price">0.237</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/External Pins/" tstamps="/5CF7EB73/"/>
+      <tstamp>5D043961</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DIN-5_180degree">
+      <description>5-pin DIN connector (5-pin DIN-5 stereo)</description>
+      <docs>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</docs>
+      <footprints>
+        <fp>DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN-5_180degree</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="6N138">
+      <aliases>
+        <alias>6N139</alias>
+      </aliases>
+      <description>Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8</description>
+      <docs>http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="C1" type="passive"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VO2" type="passive"/>
+        <pin num="7" name="VO1" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <aliases>
+        <alias>Arduino_Nano_v2.x</alias>
+      </aliases>
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Potentiometer_Digital" part="AD5293">
+      <description>Digital potentiometer 1024 pos (SPI), TSSOP-14</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5293</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST~" type="input"/>
+        <pin num="2" name="Vss-" type="power_in"/>
+        <pin num="3" name="RH" type="passive"/>
+        <pin num="4" name="RW" type="passive"/>
+        <pin num="5" name="RL" type="passive"/>
+        <pin num="6" name="Vdd+" type="power_in"/>
+        <pin num="7" name="EXT_CAP" type="passive"/>
+        <pin num="8" name="Vlog" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="SDI" type="input"/>
+        <pin num="11" name="CLK" type="input"/>
+        <pin num="12" name="~CS~" type="input"/>
+        <pin num="13" name="SDO" type="output"/>
+        <pin num="14" name="RDY" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="Synth" part="MJ-3502">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-3502</field>
+        <field name="Footprint">CUI_MJ-3502</field>
+        <field name="Datasheet">https://www.digikey.com/product-detail/en/cui-inc/MJ-3502/CP-3502MJ-ND/281321?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field4">CP-3502MJ-ND</field>
+        <field name="Field5">None</field>
+        <field name="Field6">MJ-3502</field>
+        <field name="Field7">https://www.cui.com/product/interconnect/connectors/audio-connectors/jacks/mj-3502?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Field8">3.5 mm, Mono, Right Angle, Through Hole, Threaded Bushing, Audio Jack Connector</field>
+        <field name="Field9">CUI Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Isolator.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Potentiometer_Digital">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Potentiometer_Digital.lib</uri>
+    </library>
+    <library logical="Synth">
+      <uri>C:/Users/Jonathan Kayne/Documents/KiCAD/Modular Synth/Synth.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C29" pin="1"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U15" pin="4"/>
+      <node ref="C35" pin="1"/>
+      <node ref="A1" pin="30"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="6"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="U15" pin="11"/>
+      <node ref="U13" pin="11"/>
+      <node ref="J2" pin="10"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U14" pin="11"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U12" pin="11"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C34" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C21" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U7" pin="9"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J17" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="U11" pin="5"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U8" pin="9"/>
+      <node ref="C31" pin="2"/>
+      <node ref="A1" pin="4"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C34" pin="1"/>
+      <node ref="A1" pin="29"/>
+      <node ref="C33" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U10" pin="9"/>
+      <node ref="C24" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C26" pin="1"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="U3" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U10" pin="8"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="A1" pin="27"/>
+      <node ref="U11" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="6" name="CS5">
+      <node ref="A1" pin="9"/>
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="7" name="CV5">
+      <node ref="U8" pin="4"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="8" name="Net-(C24-Pad1)">
+      <node ref="U10" pin="7"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="9" name="CS6">
+      <node ref="A1" pin="8"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="10" name="Net-(U10-Pad14)">
+      <node ref="U10" pin="14"/>
+    </net>
+    <net code="11" name="MOSI">
+      <node ref="U3" pin="10"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U10" pin="10"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U9" pin="10"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U7" pin="10"/>
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="12" name="MISO">
+      <node ref="U8" pin="13"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U9" pin="13"/>
+      <node ref="A1" pin="15"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="13" name="SCK">
+      <node ref="U8" pin="11"/>
+      <node ref="U10" pin="11"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U9" pin="11"/>
+      <node ref="A1" pin="16"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="14" name="Net-(C8-Pad1)">
+      <node ref="U4" pin="7"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="15" name="CS4">
+      <node ref="U4" pin="12"/>
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="16" name="CV4">
+      <node ref="U12" pin="5"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="17" name="Net-(U8-Pad14)">
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="18" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="20" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="21" name="MCU_Clock_4">
+      <node ref="A1" pin="22"/>
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="22" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="23" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="24" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="25" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="26" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="27" name="CS1">
+      <node ref="U3" pin="12"/>
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="28" name="CS2">
+      <node ref="A1" pin="12"/>
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="29" name="CS3">
+      <node ref="U9" pin="12"/>
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="30" name="MCU_Trig3">
+      <node ref="A1" pin="19"/>
+      <node ref="U14" pin="10"/>
+    </net>
+    <net code="31" name="MCU_Clock_1">
+      <node ref="A1" pin="20"/>
+      <node ref="U12" pin="12"/>
+    </net>
+    <net code="32" name="MCU_Clock_2">
+      <node ref="A1" pin="21"/>
+      <node ref="U13" pin="12"/>
+    </net>
+    <net code="33" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="34" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="36" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="37" name="Net-(A1-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="39" name="MCU_Trig2">
+      <node ref="U13" pin="10"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="40" name="MCU_Trig1">
+      <node ref="U12" pin="10"/>
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="41" name="CS7">
+      <node ref="U5" pin="12"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="43" name="CV7">
+      <node ref="U5" pin="4"/>
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="44" name="CV6">
+      <node ref="U14" pin="5"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="45" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="46" name="MIDI_Rx">
+      <node ref="J4" pin="1"/>
+      <node ref="U11" pin="6"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="48" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="49" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="50" name="CV1">
+      <node ref="U12" pin="3"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="51" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="52" name="Net-(D1-Pad2)">
+      <node ref="U11" pin="3"/>
+      <node ref="J3" pin="5"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D1-Pad1)">
+      <node ref="U11" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="54" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="56" name="Net-(U9-Pad14)">
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="57" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="58" name="CV3">
+      <node ref="U14" pin="3"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="59" name="CV2">
+      <node ref="U13" pin="3"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="60" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="61" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="62" name="/External Pins/Velocity3">
+      <node ref="U14" pin="7"/>
+      <node ref="U14" pin="6"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="63" name="/External Pins/Aftertouch">
+      <node ref="J17" pin="3"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U15" pin="1"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="64" name="/External Pins/Clock4">
+      <node ref="J16" pin="3"/>
+      <node ref="U14" pin="13"/>
+      <node ref="U14" pin="14"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="65" name="/External Pins/Trig3">
+      <node ref="U14" pin="9"/>
+      <node ref="U14" pin="8"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="66" name="/External Pins/Velocity1">
+      <node ref="U12" pin="6"/>
+      <node ref="U12" pin="7"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="67" name="/External Pins/Note1">
+      <node ref="J5" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="68" name="/External Pins/Clock1">
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U12" pin="14"/>
+      <node ref="U12" pin="13"/>
+    </net>
+    <net code="69" name="/External Pins/Trig1">
+      <node ref="J7" pin="2"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U12" pin="8"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="70" name="/External Pins/Trig2">
+      <node ref="U13" pin="8"/>
+      <node ref="U13" pin="9"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="71" name="/External Pins/Clock2">
+      <node ref="U13" pin="13"/>
+      <node ref="U13" pin="14"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="72" name="/External Pins/Note3">
+      <node ref="J13" pin="2"/>
+      <node ref="U14" pin="1"/>
+      <node ref="J13" pin="3"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="73" name="/External Pins/Velocity2">
+      <node ref="J10" pin="3"/>
+      <node ref="U13" pin="7"/>
+      <node ref="U13" pin="6"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="74" name="/External Pins/Note2">
+      <node ref="J9" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U13" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,357 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "JZK Eurorack Power Supply Module"
+Date "2019-05-28"
+Rev "A"
+Comp "Jonathan Kayne"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:DIN-5_180degree J1
+U 1 1 5CED732C
+P 4775 3750
+F 0 "J1" H 4900 3975 50  0000 C CNN
+F 1 "DIN-5_180degree" H 4775 3500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4775 3750 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 4775 3750 50  0001 C CNN
+	1    4775 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5CED8ECC
+P 4000 4000
+F 0 "#PWR01" H 4000 3750 50  0001 C CNN
+F 1 "GND" H 4000 3850 50  0000 C CNN
+F 2 "" H 4000 4000 50  0001 C CNN
+F 3 "" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3450 4775 3400
+$Comp
+L power:-12V #PWR02
+U 1 1 5CED9974
+P 4250 4000
+F 0 "#PWR02" H 4250 4100 50  0001 C CNN
+F 1 "-12V" H 4250 4150 50  0000 C CNN
+F 2 "" H 4250 4000 50  0001 C CNN
+F 3 "" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3750 4000 4000
+Wire Wire Line
+	4000 3750 4475 3750
+Wire Wire Line
+	4000 3400 4000 3750
+Wire Wire Line
+	4000 3400 4775 3400
+Connection ~ 4000 3750
+Wire Wire Line
+	4250 4000 4250 3650
+Wire Wire Line
+	4250 3650 4475 3650
+$Comp
+L power:+12V #PWR03
+U 1 1 5CEDAA4D
+P 5250 3500
+F 0 "#PWR03" H 5250 3350 50  0001 C CNN
+F 1 "+12V" H 5250 3640 50  0000 C CNN
+F 2 "" H 5250 3500 50  0001 C CNN
+F 3 "" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3500 5250 3650
+Wire Wire Line
+	5250 3650 5075 3650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CEDCFED
+P 6450 3750
+F 0 "J2" H 6500 4050 50  0000 C CNN
+F 1 "Power" H 6500 3450 50  0000 C CNN
+F 2 "Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag" H 6450 3750 50  0001 C CNN
+F 3 "~" H 6450 3750 50  0001 C CNN
+	1    6450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 4200
+Wire Wire Line
+	6200 4200 6500 4200
+Wire Wire Line
+	6800 4200 6800 3950
+Wire Wire Line
+	6800 3950 6750 3950
+Wire Wire Line
+	6250 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3300
+Wire Wire Line
+	6200 3300 6500 3300
+Wire Wire Line
+	6800 3300 6800 3550
+Wire Wire Line
+	6800 3550 6750 3550
+Wire Wire Line
+	6750 3650 6800 3650
+Wire Wire Line
+	6800 3650 6800 3750
+Wire Wire Line
+	6800 3850 6750 3850
+Connection ~ 6800 3750
+Wire Wire Line
+	6800 3750 6800 3850
+Wire Wire Line
+	6250 3650 6200 3650
+Wire Wire Line
+	6200 3650 6200 3750
+Wire Wire Line
+	6200 3850 6250 3850
+Wire Wire Line
+	6250 3750 6200 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3750 6200 3850
+$Comp
+L power:+12V #PWR05
+U 1 1 5CEE05EF
+P 6500 3300
+F 0 "#PWR05" H 6500 3150 50  0001 C CNN
+F 1 "+12V" H 6500 3440 50  0000 C CNN
+F 2 "" H 6500 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3300 6800 3300
+$Comp
+L power:-12V #PWR06
+U 1 1 5CEE0A10
+P 6500 4200
+F 0 "#PWR06" H 6500 4300 50  0001 C CNN
+F 1 "-12V" H 6500 4350 50  0000 C CNN
+F 2 "" H 6500 4200 50  0001 C CNN
+F 3 "" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	-1   0    0    1   
+$EndComp
+Connection ~ 6500 4200
+Wire Wire Line
+	6500 4200 6800 4200
+$Comp
+L power:GND #PWR04
+U 1 1 5CEE125D
+P 6000 3800
+F 0 "#PWR04" H 6000 3550 50  0001 C CNN
+F 1 "GND" H 6000 3650 50  0000 C CNN
+F 2 "" H 6000 3800 50  0001 C CNN
+F 3 "" H 6000 3800 50  0001 C CNN
+	1    6000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5CEE1725
+P 7000 3800
+F 0 "#PWR07" H 7000 3550 50  0001 C CNN
+F 1 "GND" H 7000 3650 50  0000 C CNN
+F 2 "" H 7000 3800 50  0001 C CNN
+F 3 "" H 7000 3800 50  0001 C CNN
+	1    7000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3750 6800 3750
+Wire Wire Line
+	7000 3800 7000 3750
+Wire Wire Line
+	7000 3750 6800 3750
+Wire Wire Line
+	6200 3750 6000 3750
+Wire Wire Line
+	6000 3750 6000 3800
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 5CEE37A9
+P 7700 3750
+F 0 "J3" H 7750 4050 50  0000 C CNN
+F 1 "Power" H 7750 3450 50  0000 C CNN
+F 2 "Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag" H 7700 3750 50  0001 C CNN
+F 3 "~" H 7700 3750 50  0001 C CNN
+	1    7700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3950 7450 3950
+Wire Wire Line
+	7450 3950 7450 4200
+Wire Wire Line
+	7450 4200 7750 4200
+Wire Wire Line
+	8050 4200 8050 3950
+Wire Wire Line
+	8050 3950 8000 3950
+Wire Wire Line
+	7500 3550 7450 3550
+Wire Wire Line
+	7450 3550 7450 3300
+Wire Wire Line
+	7450 3300 7750 3300
+Wire Wire Line
+	8050 3300 8050 3550
+Wire Wire Line
+	8050 3550 8000 3550
+Wire Wire Line
+	8000 3650 8050 3650
+Wire Wire Line
+	8050 3650 8050 3750
+Wire Wire Line
+	8050 3850 8000 3850
+Connection ~ 8050 3750
+Wire Wire Line
+	8050 3750 8050 3850
+Wire Wire Line
+	7500 3650 7450 3650
+Wire Wire Line
+	7450 3650 7450 3750
+Wire Wire Line
+	7450 3850 7500 3850
+Wire Wire Line
+	7500 3750 7450 3750
+Connection ~ 7450 3750
+Wire Wire Line
+	7450 3750 7450 3850
+$Comp
+L power:+12V #PWR09
+U 1 1 5CEE37C8
+P 7750 3300
+F 0 "#PWR09" H 7750 3150 50  0001 C CNN
+F 1 "+12V" H 7750 3440 50  0000 C CNN
+F 2 "" H 7750 3300 50  0001 C CNN
+F 3 "" H 7750 3300 50  0001 C CNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 3300
+Wire Wire Line
+	7750 3300 8050 3300
+$Comp
+L power:-12V #PWR010
+U 1 1 5CEE37D4
+P 7750 4200
+F 0 "#PWR010" H 7750 4300 50  0001 C CNN
+F 1 "-12V" H 7750 4350 50  0000 C CNN
+F 2 "" H 7750 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 4200
+	-1   0    0    1   
+$EndComp
+Connection ~ 7750 4200
+Wire Wire Line
+	7750 4200 8050 4200
+$Comp
+L power:GND #PWR08
+U 1 1 5CEE37E0
+P 7250 3800
+F 0 "#PWR08" H 7250 3550 50  0001 C CNN
+F 1 "GND" H 7250 3650 50  0000 C CNN
+F 2 "" H 7250 3800 50  0001 C CNN
+F 3 "" H 7250 3800 50  0001 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5CEE37EA
+P 8250 3800
+F 0 "#PWR011" H 8250 3550 50  0001 C CNN
+F 1 "GND" H 8250 3650 50  0000 C CNN
+F 2 "" H 8250 3800 50  0001 C CNN
+F 3 "" H 8250 3800 50  0001 C CNN
+	1    8250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3750 8050 3750
+Wire Wire Line
+	8250 3800 8250 3750
+Wire Wire Line
+	8250 3750 8050 3750
+Wire Wire Line
+	7450 3750 7250 3750
+Wire Wire Line
+	7250 3750 7250 3800
+$Comp
+L Synth:M3_Screw CN1
+U 1 1 5CEFAEF6
+P 5000 4500
+F 0 "CN1" H 5000 4560 50  0000 C CNN
+F 1 "M3_Screw" H 5020 4420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5030 4340 50  0001 C CNN
+F 3 "" H 5000 4500 50  0001 C CNN
+F 4 "N/A" H 4980 4260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4980 4180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4980 4110 50  0001 C CNN "Unit Price"
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN3
+U 1 1 5CEFBBFB
+P 5500 4500
+F 0 "CN3" H 5500 4560 50  0000 C CNN
+F 1 "M3_Screw" H 5520 4420 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5530 4340 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+F 4 "N/A" H 5480 4260 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5480 4180 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5480 4110 50  0001 C CNN "Unit Price"
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN2
+U 1 1 5CEFC14A
+P 5000 4750
+F 0 "CN2" H 5000 4810 50  0000 C CNN
+F 1 "M3_Screw" H 5020 4670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5030 4590 50  0001 C CNN
+F 3 "" H 5000 4750 50  0001 C CNN
+F 4 "N/A" H 4980 4510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 4980 4430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 4980 4360 50  0001 C CNN "Unit Price"
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Synth:M3_Screw CN4
+U 1 1 5CEFC5E1
+P 5500 4750
+F 0 "CN4" H 5500 4810 50  0000 C CNN
+F 1 "M3_Screw" H 5520 4670 50  0000 C CNN
+F 2 "Synth:M3_Screw_Hole" H 5530 4590 50  0001 C CNN
+F 3 "" H 5500 4750 50  0001 C CNN
+F 4 "N/A" H 5480 4510 50  0001 C CNN "Digikey PN"
+F 5 "N/A" H 5480 4430 50  0001 C CNN "Digikey Link"
+F 6 "0.00" H 5480 4360 50  0001 C CNN "Unit Price"
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

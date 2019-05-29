@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "JZK Synth MIDI controller"
-Date "2019-05-16"
-Rev "A"
+Date "2019-05-26"
+Rev "B"
 Comp "Jonathan Kayne"
 Comment1 ""
 Comment2 ""
@@ -15,297 +15,44 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328PB-AU U1
-U 1 1 5CD1FD01
-P 1925 3100
-F 0 "U1" H 1425 4550 50  0000 L BNN
-F 1 "ATmega328PB-AU" H 2025 1650 50  0000 L TNN
-F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 1925 3100 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 1925 3100 50  0001 C CNN
-	1    1925 3100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 5CD2170C
-P 1925 4600
-F 0 "#PWR05" H 1925 4350 50  0001 C CNN
-F 1 "GND" H 1925 4450 50  0000 C CNN
-F 2 "" H 1925 4600 50  0001 C CNN
-F 3 "" H 1925 4600 50  0001 C CNN
-	1    1925 4600
+P 2375 3300
+F 0 "#PWR05" H 2375 3050 50  0001 C CNN
+F 1 "GND" H 2375 3150 50  0000 C CNN
+F 2 "" H 2375 3300 50  0001 C CNN
+F 3 "" H 2375 3300 50  0001 C CNN
+	1    2375 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C1
-U 1 1 5CD21BFE
-P 1150 2075
-F 0 "C1" H 1175 2175 50  0000 L CNN
-F 1 "0.1uF" H 1175 1975 50  0000 L CNN
-F 2 "Synth:C_1206" H 1188 1925 50  0001 C CNN
-F 3 "~" H 1150 2075 50  0001 C CNN
-	1    1150 2075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5CD22950
-P 2375 1375
-F 0 "C3" H 2400 1475 50  0000 L CNN
-F 1 "1uF" H 2400 1275 50  0000 L CNN
-F 2 "Synth:C_1206" H 2413 1225 50  0001 C CNN
-F 3 "~" H 2375 1375 50  0001 C CNN
-	1    2375 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C4
-U 1 1 5CD22AE9
-P 2625 1375
-F 0 "C4" H 2650 1475 50  0000 L CNN
-F 1 "4.7uF" H 2650 1275 50  0000 L CNN
-F 2 "Synth:C_1206" H 2625 1375 50  0001 C CNN
-F 3 "~" H 2625 1375 50  0001 C CNN
-	1    2625 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5CD22D94
-P 2875 1375
-F 0 "C5" H 2900 1475 50  0000 L CNN
-F 1 "1uF" H 2900 1275 50  0000 L CNN
-F 2 "Synth:C_1206" H 2913 1225 50  0001 C CNN
-F 3 "~" H 2875 1375 50  0001 C CNN
-	1    2875 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 5CD24341
-P 2625 1575
-F 0 "#PWR07" H 2625 1325 50  0001 C CNN
-F 1 "GND" H 2625 1425 50  0000 C CNN
-F 2 "" H 2625 1575 50  0001 C CNN
-F 3 "" H 2625 1575 50  0001 C CNN
-	1    2625 1575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 5CD24525
-P 1150 2225
-F 0 "#PWR01" H 1150 1975 50  0001 C CNN
-F 1 "GND" H 1150 2075 50  0000 C CNN
-F 2 "" H 1150 2225 50  0001 C CNN
-F 3 "" H 1150 2225 50  0001 C CNN
-	1    1150 2225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1925 1150 1900
-Wire Wire Line
-	1150 1900 1325 1900
-Wire Wire Line
-	2375 1525 2375 1550
-Wire Wire Line
-	2375 1550 2625 1550
-Wire Wire Line
-	2875 1550 2875 1525
-Wire Wire Line
-	2625 1575 2625 1550
-Connection ~ 2625 1550
-Wire Wire Line
-	2625 1550 2875 1550
-Wire Wire Line
-	2625 1550 2625 1525
-Wire Wire Line
-	2875 1225 2875 1200
-Wire Wire Line
-	2875 1200 2625 1200
-Wire Wire Line
-	2375 1200 2375 1225
-Wire Wire Line
-	2625 1225 2625 1200
-Connection ~ 2625 1200
-Wire Wire Line
-	2625 1200 2375 1200
-Wire Wire Line
-	2025 1600 2025 1200
-Connection ~ 2375 1200
-Wire Wire Line
-	1925 1600 1925 1200
-Wire Wire Line
-	1925 1200 2025 1200
-Connection ~ 2025 1200
-Wire Wire Line
-	2025 1200 2375 1200
 $Comp
 L power:+5V #PWR06
 U 1 1 5CD258E3
-P 2625 1200
-F 0 "#PWR06" H 2625 1050 50  0001 C CNN
-F 1 "+5V" H 2625 1340 50  0000 C CNN
-F 2 "" H 2625 1200 50  0001 C CNN
-F 3 "" H 2625 1200 50  0001 C CNN
-	1    2625 1200
+P 2525 1250
+F 0 "#PWR06" H 2525 1100 50  0001 C CNN
+F 1 "+5V" H 2525 1390 50  0000 C CNN
+F 2 "" H 2525 1250 50  0001 C CNN
+F 3 "" H 2525 1250 50  0001 C CNN
+	1    2525 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Crystal_GND2 Y1
-U 1 1 5CD263BA
-P 3200 2550
-F 0 "Y1" H 3200 2775 50  0000 C CNN
-F 1 "16 MHz" H 3200 2700 50  0000 C CNN
-F 2 "Synth:Abracon_AWSCR_4.7x4.1mm" H 3200 2550 50  0001 C CNN
-F 3 "~" H 3200 2550 50  0001 C CNN
-	1    3200 2550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2525 2600 2875 2600
-Wire Wire Line
-	2875 2600 2875 2750
-Wire Wire Line
-	2875 2750 3200 2750
-Wire Wire Line
-	3200 2750 3200 2700
-Wire Wire Line
-	2525 2500 2875 2500
-Wire Wire Line
-	2875 2500 2875 2350
-Wire Wire Line
-	2875 2350 3200 2350
-Wire Wire Line
-	3200 2350 3200 2400
-$Comp
-L power:GND #PWR011
-U 1 1 5CD281ED
-P 3450 2625
-F 0 "#PWR011" H 3450 2375 50  0001 C CNN
-F 1 "GND" H 3450 2475 50  0000 C CNN
-F 2 "" H 3450 2625 50  0001 C CNN
-F 3 "" H 3450 2625 50  0001 C CNN
-	1    3450 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 2625 3450 2550
-Wire Wire Line
-	3450 2550 3400 2550
-Text GLabel 2600 2400 2    50   UnSpc ~ 0
+Text GLabel 1575 2950 0    50   UnSpc ~ 0
 SCK
-Text GLabel 2600 2300 2    50   Input ~ 0
+Text GLabel 1575 2850 0    50   Input ~ 0
 MISO
-Text GLabel 2600 2200 2    50   Output ~ 0
+Text GLabel 1575 2750 0    50   Output ~ 0
 MOSI
-Text GLabel 2950 3400 2    50   Input ~ 0
-RST
-Wire Wire Line
-	2600 2400 2525 2400
-Wire Wire Line
-	2525 2300 2600 2300
-Wire Wire Line
-	2525 2200 2600 2200
-$Comp
-L Device:R R1
-U 1 1 5CD2A07B
-P 2875 3225
-F 0 "R1" V 2955 3225 50  0000 C CNN
-F 1 "1k" V 2875 3225 50  0000 C CNN
-F 2 "Synth:R_1206" V 2805 3225 50  0001 C CNN
-F 3 "~" H 2875 3225 50  0001 C CNN
-	1    2875 3225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR010
-U 1 1 5CD2A818
-P 2875 3075
-F 0 "#PWR010" H 2875 2925 50  0001 C CNN
-F 1 "+5V" H 2875 3215 50  0000 C CNN
-F 2 "" H 2875 3075 50  0001 C CNN
-F 3 "" H 2875 3075 50  0001 C CNN
-	1    2875 3075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM1117-5.0 U6
-U 1 1 5CD3A75A
-P 5925 1275
-F 0 "U6" H 5775 1400 50  0000 C CNN
-F 1 "LM1117-5.0" H 5925 1400 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5925 1275 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 5925 1275 50  0001 C CNN
-	1    5925 1275
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+12V #PWR030
 U 1 1 5CD3B632
-P 5550 1175
-F 0 "#PWR030" H 5550 1025 50  0001 C CNN
-F 1 "+12V" H 5550 1315 50  0000 C CNN
-F 2 "" H 5550 1175 50  0001 C CNN
-F 3 "" H 5550 1175 50  0001 C CNN
-	1    5550 1175
+P 2225 1250
+F 0 "#PWR030" H 2225 1100 50  0001 C CNN
+F 1 "+12V" H 2225 1390 50  0000 C CNN
+F 2 "" H 2225 1250 50  0001 C CNN
+F 3 "" H 2225 1250 50  0001 C CNN
+	1    2225 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR046
-U 1 1 5CD3BAA5
-P 6475 1175
-F 0 "#PWR046" H 6475 1025 50  0001 C CNN
-F 1 "+5V" H 6475 1315 50  0000 C CNN
-F 2 "" H 6475 1175 50  0001 C CNN
-F 3 "" H 6475 1175 50  0001 C CNN
-	1    6475 1175
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 5CD3BE81
-P 5925 1675
-F 0 "#PWR037" H 5925 1425 50  0001 C CNN
-F 1 "GND" H 5925 1525 50  0000 C CNN
-F 2 "" H 5925 1675 50  0001 C CNN
-F 3 "" H 5925 1675 50  0001 C CNN
-	1    5925 1675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5CD3C208
-P 6350 1450
-F 0 "C16" H 6375 1550 50  0000 L CNN
-F 1 "1uF" H 6375 1350 50  0000 L CNN
-F 2 "Synth:C_1206" H 6388 1300 50  0001 C CNN
-F 3 "~" H 6350 1450 50  0001 C CNN
-	1    6350 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6225 1275 6350 1275
-Wire Wire Line
-	6475 1275 6475 1175
-Wire Wire Line
-	6350 1275 6350 1300
-Connection ~ 6350 1275
-Wire Wire Line
-	6350 1275 6475 1275
-Wire Wire Line
-	6350 1600 6350 1650
-Wire Wire Line
-	6350 1650 5925 1650
-Wire Wire Line
-	5925 1650 5925 1575
-Wire Wire Line
-	5925 1675 5925 1650
-Connection ~ 5925 1650
-Wire Wire Line
-	5550 1175 5550 1275
-Wire Wire Line
-	5550 1275 5625 1275
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CD424B8
@@ -314,6 +61,9 @@ F 0 "J2" H 7250 1675 50  0000 C CNN
 F 1 "Power" H 7250 1075 50  0000 C CNN
 F 2 "Synth:PinHeader_2x05_P2.54mm_Vertical_Zigzag" H 7200 1375 50  0001 C CNN
 F 3 "~" H 7200 1375 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr84" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "609-3243-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.27" H 0   0   50  0001 C CNN "Unit Price"
 	1    7200 1375
 	1    0    0    -1  
 $EndComp
@@ -419,25 +169,10 @@ Wire Wire Line
 Connection ~ 7625 1475
 Wire Wire Line
 	7625 1475 7625 1375
-Text GLabel 2600 3300 2    50   Output ~ 0
+Text GLabel 1575 2350 0    50   Output ~ 0
 CS4
-Text GLabel 2600 3200 2    50   Output ~ 0
+Text GLabel 1575 2250 0    50   Output ~ 0
 CS5
-Wire Wire Line
-	2600 3300 2525 3300
-Wire Wire Line
-	2600 3200 2525 3200
-$Comp
-L Connector:DIN-5_180degree J3
-U 1 1 5CD8F33F
-P 8475 1250
-F 0 "J3" H 8600 1475 50  0000 C CNN
-F 1 "MIDI" H 8475 1000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8475 1250 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8475 1250 50  0001 C CNN
-	1    8475 1250
-	-1   0    0    1   
-$EndComp
 $Comp
 L Isolator:6N138 U11
 U 1 1 5CD91D0B
@@ -446,6 +181,9 @@ F 0 "U11" H 9715 1875 50  0000 C CNN
 F 1 "6N138" H 9965 1875 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 10165 1225 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf" H 10165 1225 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrj5" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "160-1795-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.81" H 0   0   50  0001 C CNN "Unit Price"
 	1    9875 1525
 	1    0    0    -1  
 $EndComp
@@ -457,6 +195,9 @@ F 0 "R4" V 9130 1350 50  0000 C CNN
 F 1 "220" V 9050 1350 50  0000 C CNN
 F 2 "Synth:R_1206" V 8980 1350 50  0001 C CNN
 F 3 "~" H 9050 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrjp" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-220FRCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    9050 1350
 	0    1    1    0   
 $EndComp
@@ -468,6 +209,9 @@ F 0 "R6" V 10630 1425 50  0000 C CNN
 F 1 "220" V 10550 1425 50  0000 C CNN
 F 2 "Synth:R_1206" V 10480 1425 50  0001 C CNN
 F 3 "~" H 10550 1425 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrjp" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "311-220FRCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    10550 1425
 	1    0    0    -1  
 $EndComp
@@ -479,6 +223,9 @@ F 0 "R5" V 10505 1850 50  0000 C CNN
 F 1 "4.7k" V 10425 1850 50  0000 C CNN
 F 2 "Synth:R_1206" V 10355 1850 50  0001 C CNN
 F 3 "~" H 10425 1850 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr81" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "A130181CT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.10" H 0   0   50  0001 C CNN "Unit Price"
 	1    10425 1850
 	1    0    0    -1  
 $EndComp
@@ -487,9 +234,12 @@ L Device:D D1
 U 1 1 5CD94D16
 P 9350 1525
 F 0 "D1" H 9350 1625 50  0000 C CNN
-F 1 "1N914" H 9350 1425 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9350 1525 50  0001 C CNN
+F 1 "1N4148W" V 9375 1250 50  0000 C CNN
+F 2 "Synth:D_SOD-123" H 9350 1525 50  0001 C CNN
 F 3 "~" H 9350 1525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrz9" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "1N4148WTPMSCT-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.131" H 0   0   50  0001 C CNN "Unit Price"
 	1    9350 1525
 	0    1    1    0   
 $EndComp
@@ -578,18 +328,10 @@ MIDI_Rx
 Wire Wire Line
 	10650 1625 10550 1625
 Connection ~ 10550 1625
-Text Notes 1900 1025 2    50   ~ 0
-ATMEGA
-Text Notes 6125 950  2    50   ~ 0
-12V to 5V
 Text Notes 7350 750  2    50   ~ 0
 Power
 Text Notes 9775 975  2    50   ~ 0
 MIDI Interface
-Text GLabel 2600 3600 2    50   Input ~ 0
-Prog_Rx
-Wire Wire Line
-	2600 3600 2525 3600
 $Comp
 L Potentiometer_Digital:AD5293 U3
 U 1 1 5CD6303C
@@ -600,253 +342,12 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5275 2600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 5275 3200 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 5275 3200 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 5275 3200 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    5275 3200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Interface_USB:FT232RL U2
-U 1 1 5CD642C9
-P 2625 6500
-F 0 "U2" H 1975 7400 50  0000 L CNN
-F 1 "FT232RL" H 3025 7400 50  0000 L CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 2625 6500 50  0001 C CNN
-F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 2625 6500 50  0001 C CNN
-	1    2625 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Synth:2040002-1 J1
-U 1 1 5CD7F6D2
-P 875 5975
-F 0 "J1" H 685 6285 50  0000 L BNN
-F 1 "2040002-1" H 655 5605 50  0000 L BNN
-F 2 "Synth:2040002" H 625 5485 50  0001 L BNN
-F 3 "" H 1675 5475 50  0001 L BNN
-	1    875  5975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2825 7500 2825 7550
-Wire Wire Line
-	2825 7550 2725 7550
-Wire Wire Line
-	2425 7550 2425 7500
-Wire Wire Line
-	2625 7500 2625 7550
-Connection ~ 2625 7550
-Wire Wire Line
-	2625 7550 2425 7550
-Wire Wire Line
-	2725 7500 2725 7550
-Connection ~ 2725 7550
-Wire Wire Line
-	2725 7550 2625 7550
-$Comp
-L power:GND #PWR09
-U 1 1 5CD90FFE
-P 2625 7550
-F 0 "#PWR09" H 2625 7300 50  0001 C CNN
-F 1 "GND" H 2625 7400 50  0000 C CNN
-F 2 "" H 2625 7550 50  0001 C CNN
-F 3 "" H 2625 7550 50  0001 C CNN
-	1    2625 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5CD91F8A
-P 1475 6350
-F 0 "#PWR03" H 1475 6100 50  0001 C CNN
-F 1 "GND" H 1475 6200 50  0000 C CNN
-F 2 "" H 1475 6350 50  0001 C CNN
-F 3 "" H 1475 6350 50  0001 C CNN
-	1    1475 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 5CDA1B2D
-P 1800 5700
-F 0 "#PWR04" H 1800 5550 50  0001 C CNN
-F 1 "+3.3V" H 1800 5840 50  0000 C CNN
-F 2 "" H 1800 5700 50  0001 C CNN
-F 3 "" H 1800 5700 50  0001 C CNN
-	1    1800 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 5700 1800 5800
-Wire Wire Line
-	1800 5800 1825 5800
-$Comp
-L Device:C C2
-U 1 1 5CDA6548
-P 1475 6150
-F 0 "C2" H 1500 6250 50  0000 L CNN
-F 1 "0.1uF" H 1500 6050 50  0000 L CNN
-F 2 "Synth:C_1206" H 1513 6000 50  0001 C CNN
-F 3 "~" H 1475 6150 50  0001 C CNN
-	1    1475 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1825 6100 1750 6100
-Wire Wire Line
-	1750 6100 1750 5925
-Wire Wire Line
-	1750 5925 1275 5925
-Wire Wire Line
-	1825 6200 1700 6200
-Wire Wire Line
-	1700 6200 1700 5825
-Wire Wire Line
-	1700 5825 1275 5825
-Wire Wire Line
-	1475 6000 1475 5725
-Wire Wire Line
-	1475 5725 1275 5725
-Wire Wire Line
-	1475 6350 1475 6325
-Wire Wire Line
-	1475 6325 1325 6325
-Wire Wire Line
-	1325 6325 1325 6225
-Wire Wire Line
-	1325 6125 1275 6125
-Connection ~ 1475 6325
-Wire Wire Line
-	1475 6325 1475 6300
-Wire Wire Line
-	1275 6225 1325 6225
-Connection ~ 1325 6225
-Wire Wire Line
-	1325 6225 1325 6125
-Wire Wire Line
-	2425 7550 1775 7550
-Wire Wire Line
-	1775 7550 1775 7200
-Wire Wire Line
-	1775 7200 1825 7200
-Connection ~ 2425 7550
-NoConn ~ 3425 6000
-NoConn ~ 3425 6500
-NoConn ~ 3425 6300
-NoConn ~ 3425 6400
-NoConn ~ 3425 6100
-NoConn ~ 1825 6500
-NoConn ~ 1825 6700
-NoConn ~ 1825 6900
-NoConn ~ 3425 7200
-NoConn ~ 3425 7100
-NoConn ~ 3425 7000
-$Comp
-L power:+5V #PWR08
-U 1 1 5CDFABAC
-P 2625 5475
-F 0 "#PWR08" H 2625 5325 50  0001 C CNN
-F 1 "+5V" H 2625 5615 50  0000 C CNN
-F 2 "" H 2625 5475 50  0001 C CNN
-F 3 "" H 2625 5475 50  0001 C CNN
-	1    2625 5475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2725 5500 2725 5475
-Wire Wire Line
-	2725 5475 2625 5475
-Wire Wire Line
-	2525 5475 2525 5500
-Connection ~ 2625 5475
-Wire Wire Line
-	2625 5475 2525 5475
-Text GLabel 3900 5800 2    50   Output ~ 0
-Prog_Rx
-Text GLabel 3900 5900 2    50   Input ~ 0
-Prog_Tx
-Wire Wire Line
-	3500 5900 3425 5900
-Wire Wire Line
-	3425 5800 3500 5800
-$Comp
-L Device:C C6
-U 1 1 5CE11A02
-P 3650 6200
-F 0 "C6" V 3700 6275 50  0000 L CNN
-F 1 "0.1uF" V 3525 6125 50  0000 L CNN
-F 2 "Synth:C_1206" H 3688 6050 50  0001 C CNN
-F 3 "~" H 3650 6200 50  0001 C CNN
-	1    3650 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3500 6200 3425 6200
-Text GLabel 3875 6200 2    50   Input ~ 0
-RST
-Wire Wire Line
-	3875 6200 3800 6200
-$Comp
-L power:+5V #PWR02
-U 1 1 5CE1D6C6
-P 1475 5725
-F 0 "#PWR02" H 1475 5575 50  0001 C CNN
-F 1 "+5V" H 1475 5865 50  0000 C CNN
-F 2 "" H 1475 5725 50  0001 C CNN
-F 3 "" H 1475 5725 50  0001 C CNN
-	1    1475 5725
-	1    0    0    -1  
-$EndComp
-Connection ~ 1475 5725
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5CE1DCBC
-P 9100 1975
-F 0 "J4" H 9100 2075 50  0000 C CNN
-F 1 "Prog Jumper" H 9100 1775 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9100 1975 50  0001 C CNN
-F 3 "~" H 9100 1975 50  0001 C CNN
-	1    9100 1975
-	1    0    0    -1  
-$EndComp
-Text GLabel 8850 1975 0    50   Input ~ 0
+Text GLabel 1375 1650 0    50   Input ~ 0
 MIDI_Rx
-Text GLabel 8850 2075 0    50   Input ~ 0
-Prog_Rx
-Wire Wire Line
-	8850 2075 8900 2075
-Wire Wire Line
-	8850 1975 8900 1975
-Text GLabel 2600 3700 2    50   Output ~ 0
-Prog_Tx
-Wire Wire Line
-	2600 3700 2525 3700
-$Comp
-L Device:R R2
-U 1 1 5CE3257A
-P 3650 5800
-F 0 "R2" V 3575 5800 50  0000 C CNN
-F 1 "1k" V 3650 5800 50  0000 C CNN
-F 2 "Synth:R_1206" V 3580 5800 50  0001 C CNN
-F 3 "~" H 3650 5800 50  0001 C CNN
-	1    3650 5800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5CE32B03
-P 3650 5900
-F 0 "R3" V 3730 5900 50  0000 C CNN
-F 1 "1k" V 3650 5900 50  0000 C CNN
-F 2 "Synth:R_1206" V 3580 5900 50  0001 C CNN
-F 3 "~" H 3650 5900 50  0001 C CNN
-	1    3650 5900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3900 5900 3800 5900
-Wire Wire Line
-	3800 5800 3900 5800
-Text Notes 1900 5350 0    50   ~ 0
-Programmer
 Text GLabel 4525 2900 0    50   Input ~ 0
 MOSI
 Text GLabel 4525 3000 0    50   Output ~ 0
@@ -941,6 +442,9 @@ F 0 "C7" H 4550 3800 50  0000 L CNN
 F 1 "1uF" H 4550 3600 50  0000 L CNN
 F 2 "Synth:C_1206" H 4563 3550 50  0001 C CNN
 F 3 "~" H 4525 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    4525 3700
 	1    0    0    -1  
 $EndComp
@@ -992,6 +496,9 @@ F 0 "C13" V 5675 2275 50  0000 L CNN
 F 1 "0.1uF" V 5500 2400 50  0000 L CNN
 F 2 "Synth:C_1206" H 5663 2325 50  0001 C CNN
 F 3 "~" H 5625 2475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5625 2475
 	0    1    1    0   
 $EndComp
@@ -1003,6 +510,9 @@ F 0 "C10" V 5550 3825 50  0000 L CNN
 F 1 "0.1uF" V 5725 3650 50  0000 L CNN
 F 2 "Synth:C_1206" H 5638 3600 50  0001 C CNN
 F 3 "~" H 5600 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 3750
 	0    1    1    0   
 $EndComp
@@ -1050,13 +560,6 @@ Wire Wire Line
 Wire Wire Line
 	5375 2450 5375 2475
 Connection ~ 5375 2475
-Wire Wire Line
-	2525 3400 2875 3400
-Wire Wire Line
-	2875 3375 2875 3400
-Connection ~ 2875 3400
-Wire Wire Line
-	2875 3400 2950 3400
 $Comp
 L Potentiometer_Digital:AD5293 U7
 U 1 1 5CEFB580
@@ -1067,6 +570,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7475 2600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 7475 3200 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 7475 3200 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 7475 3200 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    7475 3200
 	1    0    0    -1  
 $EndComp
@@ -1160,10 +664,13 @@ $Comp
 L Device:C C17
 U 1 1 5CEFB5D0
 P 6725 3700
-F 0 "C17" H 6750 3800 50  0000 L CNN
+F 0 "C17" H 6550 3800 50  0000 L CNN
 F 1 "1uF" H 6750 3600 50  0000 L CNN
 F 2 "Synth:C_1206" H 6763 3550 50  0001 C CNN
 F 3 "~" H 6725 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    6725 3700
 	1    0    0    -1  
 $EndComp
@@ -1215,6 +722,9 @@ F 0 "C21" V 7875 2275 50  0000 L CNN
 F 1 "0.1uF" V 7700 2400 50  0000 L CNN
 F 2 "Synth:C_1206" H 7863 2325 50  0001 C CNN
 F 3 "~" H 7825 2475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    7825 2475
 	0    1    1    0   
 $EndComp
@@ -1226,6 +736,9 @@ F 0 "C19" V 7750 3825 50  0000 L CNN
 F 1 "0.1uF" V 7925 3650 50  0000 L CNN
 F 2 "Synth:C_1206" H 7838 3600 50  0001 C CNN
 F 3 "~" H 7800 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    7800 3750
 	0    1    1    0   
 $EndComp
@@ -1283,6 +796,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9625 2600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 9625 3200 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 9625 3200 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 9625 3200 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    9625 3200
 	1    0    0    -1  
 $EndComp
@@ -1376,10 +890,13 @@ $Comp
 L Device:C C23
 U 1 1 5CF0E2F4
 P 8875 3700
-F 0 "C23" H 8725 3800 50  0000 L CNN
+F 0 "C23" H 8700 3800 50  0000 L CNN
 F 1 "1uF" H 8900 3600 50  0000 L CNN
 F 2 "Synth:C_1206" H 8913 3550 50  0001 C CNN
 F 3 "~" H 8875 3700 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    8875 3700
 	1    0    0    -1  
 $EndComp
@@ -1431,6 +948,9 @@ F 0 "C27" V 10025 2275 50  0000 L CNN
 F 1 "0.1uF" V 9850 2400 50  0000 L CNN
 F 2 "Synth:C_1206" H 10013 2325 50  0001 C CNN
 F 3 "~" H 9975 2475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    9975 2475
 	0    1    1    0   
 $EndComp
@@ -1442,6 +962,9 @@ F 0 "C25" V 9900 3825 50  0000 L CNN
 F 1 "0.1uF" V 10075 3650 50  0000 L CNN
 F 2 "Synth:C_1206" H 9988 3600 50  0001 C CNN
 F 3 "~" H 9950 3750 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    9950 3750
 	0    1    1    0   
 $EndComp
@@ -1499,6 +1022,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5275 4375 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 5275 4975 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 5275 4975 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 5275 4975 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    5275 4975
 	1    0    0    -1  
 $EndComp
@@ -1596,6 +1120,9 @@ F 0 "C8" H 4550 5575 50  0000 L CNN
 F 1 "1uF" H 4550 5375 50  0000 L CNN
 F 2 "Synth:C_1206" H 4563 5325 50  0001 C CNN
 F 3 "~" H 4525 5475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    4525 5475
 	1    0    0    -1  
 $EndComp
@@ -1647,6 +1174,9 @@ F 0 "C14" V 5675 4050 50  0000 L CNN
 F 1 "0.1uF" V 5500 4175 50  0000 L CNN
 F 2 "Synth:C_1206" H 5663 4100 50  0001 C CNN
 F 3 "~" H 5625 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5625 4250
 	0    1    1    0   
 $EndComp
@@ -1658,6 +1188,9 @@ F 0 "C11" V 5550 5600 50  0000 L CNN
 F 1 "0.1uF" V 5725 5425 50  0000 L CNN
 F 2 "Synth:C_1206" H 5638 5375 50  0001 C CNN
 F 3 "~" H 5600 5525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 5525
 	0    1    1    0   
 $EndComp
@@ -1715,6 +1248,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7475 4375 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 7475 4975 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 7475 4975 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 7475 4975 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    7475 4975
 	1    0    0    -1  
 $EndComp
@@ -1812,6 +1346,9 @@ F 0 "C18" H 6550 5575 50  0000 L CNN
 F 1 "1uF" H 6750 5375 50  0000 L CNN
 F 2 "Synth:C_1206" H 6763 5325 50  0001 C CNN
 F 3 "~" H 6725 5475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    6725 5475
 	1    0    0    -1  
 $EndComp
@@ -1863,6 +1400,9 @@ F 0 "C22" V 7875 4050 50  0000 L CNN
 F 1 "0.1uF" V 7700 4175 50  0000 L CNN
 F 2 "Synth:C_1206" H 7863 4100 50  0001 C CNN
 F 3 "~" H 7825 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    7825 4250
 	0    1    1    0   
 $EndComp
@@ -1874,6 +1414,9 @@ F 0 "C20" V 7750 5600 50  0000 L CNN
 F 1 "0.1uF" V 7925 5425 50  0000 L CNN
 F 2 "Synth:C_1206" H 7838 5375 50  0001 C CNN
 F 3 "~" H 7800 5525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    7800 5525
 	0    1    1    0   
 $EndComp
@@ -1931,6 +1474,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 9625 4375 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 9625 4975 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 9625 4975 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 9625 4975 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    9625 4975
 	1    0    0    -1  
 $EndComp
@@ -2028,6 +1572,9 @@ F 0 "C24" H 8700 5575 50  0000 L CNN
 F 1 "1uF" H 8900 5375 50  0000 L CNN
 F 2 "Synth:C_1206" H 8913 5325 50  0001 C CNN
 F 3 "~" H 8875 5475 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    8875 5475
 	1    0    0    -1  
 $EndComp
@@ -2079,6 +1626,9 @@ F 0 "C28" V 10025 4050 50  0000 L CNN
 F 1 "0.1uF" V 9850 4175 50  0000 L CNN
 F 2 "Synth:C_1206" H 10013 4100 50  0001 C CNN
 F 3 "~" H 9975 4250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    9975 4250
 	0    1    1    0   
 $EndComp
@@ -2090,6 +1640,9 @@ F 0 "C26" V 9900 5600 50  0000 L CNN
 F 1 "0.1uF" V 10075 5425 50  0000 L CNN
 F 2 "Synth:C_1206" H 9988 5375 50  0001 C CNN
 F 3 "~" H 9950 5525 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    9950 5525
 	0    1    1    0   
 $EndComp
@@ -2147,6 +1700,7 @@ F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5275 6225 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf" H 5275 6825 50  0001 C CNN
 F 4 "AD5293BRUZ-100-RL7CT-ND" H 5275 6825 50  0001 C CNN "Digikey PN"
 F 5 "https://www.digikey.com/short/pzd8zr" H 5275 6825 50  0001 C CNN "Digikey Link"
+F 6 "6.88" H 0   0   50  0001 C CNN "Unit Price"
 	1    5275 6825
 	1    0    0    -1  
 $EndComp
@@ -2244,6 +1798,9 @@ F 0 "C9" H 4550 7425 50  0000 L CNN
 F 1 "1uF" H 4550 7225 50  0000 L CNN
 F 2 "Synth:C_1206" H 4563 7175 50  0001 C CNN
 F 3 "~" H 4525 7325 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpn" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "399-1254-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.23" H 0   0   50  0001 C CNN "Unit Price"
 	1    4525 7325
 	1    0    0    -1  
 $EndComp
@@ -2295,6 +1852,9 @@ F 0 "C15" V 5675 5900 50  0000 L CNN
 F 1 "0.1uF" V 5500 6025 50  0000 L CNN
 F 2 "Synth:C_1206" H 5663 5950 50  0001 C CNN
 F 3 "~" H 5625 6100 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5625 6100
 	0    1    1    0   
 $EndComp
@@ -2306,6 +1866,9 @@ F 0 "C12" V 5550 7450 50  0000 L CNN
 F 1 "0.1uF" V 5725 7275 50  0000 L CNN
 F 2 "Synth:C_1206" H 5638 7225 50  0001 C CNN
 F 3 "~" H 5600 7375 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nr3m" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "720-1540-1-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.237" H 0   0   50  0001 C CNN "Unit Price"
 	1    5600 7375
 	0    1    1    0   
 $EndComp
@@ -2353,54 +1916,125 @@ Wire Wire Line
 Wire Wire Line
 	5375 6075 5375 6100
 Connection ~ 5375 6100
-Text GLabel 2600 2100 2    50   Output ~ 0
+Text GLabel 1575 2650 0    50   Output ~ 0
 CS1
-Text GLabel 2600 2000 2    50   Output ~ 0
+Text GLabel 1575 2550 0    50   Output ~ 0
 CS2
-Text GLabel 2600 1900 2    50   Output ~ 0
+Text GLabel 1575 2450 0    50   Output ~ 0
 CS3
-Text GLabel 2600 3100 2    50   Output ~ 0
+Text GLabel 1575 2150 0    50   Output ~ 0
 CS6
-Text GLabel 2600 3000 2    50   Output ~ 0
+Text GLabel 1575 2050 0    50   Output ~ 0
 CS7
-Wire Wire Line
-	2600 3100 2525 3100
-Wire Wire Line
-	2525 3000 2600 3000
-Wire Wire Line
-	2600 2100 2525 2100
-Wire Wire Line
-	2525 2000 2600 2000
-Wire Wire Line
-	2525 1900 2600 1900
-Text GLabel 2600 3800 2    50   Output ~ 0
+Text GLabel 1575 1950 0    50   Output ~ 0
 MCU_Trig1
-Text GLabel 2600 3900 2    50   Output ~ 0
+Text GLabel 1575 1850 0    50   Output ~ 0
 MCU_Trig2
-Text GLabel 2600 4000 2    50   Output ~ 0
+Text GLabel 3075 2250 2    50   Output ~ 0
 MCU_Trig3
-Text GLabel 2600 4100 2    50   Output ~ 0
+Text GLabel 3075 2350 2    50   Output ~ 0
 MCU_Clock_1
-Text GLabel 2600 4200 2    50   Output ~ 0
+Text GLabel 3075 2450 2    50   Output ~ 0
 MCU_Clock_2
-Text GLabel 2600 4300 2    50   Output ~ 0
+Text GLabel 3075 2550 2    50   Output ~ 0
 MCU_Clock_4
-Wire Wire Line
-	2600 4300 2525 4300
-Wire Wire Line
-	2525 4200 2600 4200
-Wire Wire Line
-	2525 4100 2600 4100
-Wire Wire Line
-	2525 4000 2600 4000
-Wire Wire Line
-	2525 3900 2600 3900
-Wire Wire Line
-	2525 3800 2600 3800
 $Sheet
 S 7500 5875 750  475 
 U 5CF7EB73
 F0 "External Pins" 50
 F1 "Pins.sch" 50
 $EndSheet
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5D032FDC
+P 2325 2250
+F 0 "A1" H 2125 3275 50  0000 R CNN
+F 1 "Arduino_Nano_v3.x" H 2650 3500 50  0000 R CNN
+F 2 "Module:Arduino_Nano" H 2475 1300 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2325 1250 50  0001 C CNN
+F 4 "https://smile.amazon.com/dp/B00NLAMS9C" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "B00NLAMS9C" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "8.99" H 0   0   50  0001 C CNN "Unit Price"
+	1    2325 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 1600 1575 1650
+Wire Wire Line
+	1575 1650 1825 1650
+Wire Wire Line
+	1475 1600 1475 1650
+Wire Wire Line
+	1475 1650 1375 1650
+Wire Wire Line
+	1575 1850 1825 1850
+Wire Wire Line
+	1825 1950 1575 1950
+Wire Wire Line
+	1575 2050 1825 2050
+Wire Wire Line
+	1825 2150 1575 2150
+Wire Wire Line
+	1575 2250 1825 2250
+Wire Wire Line
+	1825 2350 1575 2350
+Wire Wire Line
+	1575 2450 1825 2450
+Wire Wire Line
+	1575 2550 1825 2550
+Wire Wire Line
+	1825 2650 1575 2650
+Wire Wire Line
+	1575 2750 1825 2750
+Wire Wire Line
+	1575 2850 1825 2850
+Wire Wire Line
+	1575 2950 1825 2950
+Wire Wire Line
+	2825 2250 3075 2250
+Wire Wire Line
+	2825 2350 3075 2350
+Wire Wire Line
+	2825 2450 3075 2450
+Wire Wire Line
+	2825 2550 3075 2550
+Wire Wire Line
+	2425 3250 2425 3275
+Wire Wire Line
+	2425 3275 2375 3275
+Wire Wire Line
+	2325 3275 2325 3250
+Wire Wire Line
+	2375 3300 2375 3275
+Connection ~ 2375 3275
+Wire Wire Line
+	2375 3275 2325 3275
+$Comp
+L Connector:DIN-5_180degree J3
+U 1 1 5CD8F33F
+P 8475 1250
+F 0 "J3" H 8600 1475 50  0000 C CNN
+F 1 "MIDI" H 8475 1000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8475 1250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8475 1250 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrpz" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "CP-1250-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "2.99" H 0   0   50  0001 C CNN "Unit Price"
+	1    8475 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5CE1DCBC
+P 1475 1400
+F 0 "J4" H 1475 1500 50  0000 C CNN
+F 1 "Prog Jumper" V 1575 1350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1475 1400 50  0001 C CNN
+F 3 "~" H 1475 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/short/p4nrjv" H 0   0   50  0001 C CNN "Digikey Link"
+F 5 "732-5315-ND" H 0   0   50  0001 C CNN "Digikey PN"
+F 6 "0.13" H 0   0   50  0001 C CNN "Unit Price"
+	1    1475 1400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
