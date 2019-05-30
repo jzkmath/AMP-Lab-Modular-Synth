@@ -25,3 +25,11 @@ All PCBs will be designed in KiCAD so that the entire project can be made open s
 ## VCA
 ![VCA Render](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/VCA/VCA_render_front.png)
 ![VCA Panel](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/VCA_Panel/VCA%20Panel%20render.png)
+
+## MIDI Controller
+![MIDI Render](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/MIDI%20Controller/MIDI%20Controller%20Render.png)
+![MIDI Panel](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/MIDI%20Controller_Panel/MIDI%20Controller_Panel%20render.png)
+
+## Power Supply
+![PSU Render](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/Power%20Supply/Power%20Supply%20Render.png)
+![PSU Panel](https://github.com/jzkmath/AMP-Lab-Modular-Synth/blob/master/KiCAD/Power%20Supply_Panel/Power%20Supply_Panel%20render.png)
